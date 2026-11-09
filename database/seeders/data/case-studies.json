@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "kokolet-luxury",
+    "name": "Kokolet Luxury",
+    "clientType": "Luxury retail brand",
+    "category": "Web",
+    "platform": "Web store",
+    "summary": "A premium online store connecting product discovery, checkout and repeat purchases.",
+    "challenge": "Create an online flagship that felt as considered as the products, while keeping browsing and repeat purchasing simple.",
+    "solution": "We designed an editorial storefront and connected the catalogue, checkout and order operations behind it.",
+    "features": [
+      {
+        "title": "Editorial catalogue",
+        "text": "Collections and product pages designed to present products the way the brand does in store."
+      },
+      {
+        "title": "Secure checkout",
+        "text": "A short checkout flow with online payments."
+      },
+      {
+        "title": "Loyalty journey",
+        "text": "Account features that encourage customers to come back."
+      },
+      {
+        "title": "Order operations",
+        "text": "Admin tools to manage orders, stock and fulfilment."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Storefront development",
+      "Payments integration",
+      "Admin and order management",
+      "Deployment"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "stack": [
+      "React",
+      "Commerce API",
+      "Payments",
+      "Analytics"
+    ]
+  },
+  {
+    "slug": "colala-mall",
+    "name": "Colala Mall",
+    "clientType": "Online marketplace",
+    "category": "Web",
+    "platform": "Web marketplace",
+    "summary": "A marketplace connecting buyers, sellers, payments and fulfilment in one platform.",
+    "challenge": "Make seller onboarding and product discovery simple while supporting a growing catalogue.",
+    "solution": "We delivered a modular marketplace with clear seller operations and a transaction flow that can grow with the platform.",
+    "features": [
+      {
+        "title": "Seller onboarding",
+        "text": "Sign-up, store setup and product listing for sellers."
+      },
+      {
+        "title": "Product discovery",
+        "text": "Search, categories and filters for buyers."
+      },
+      {
+        "title": "Payments",
+        "text": "Checkout and payment handling between buyers and sellers."
+      },
+      {
+        "title": "Order management",
+        "text": "Order tracking and fulfilment tools for sellers and admins."
+      }
+    ],
+    "scope": [
+      "Marketplace architecture",
+      "Buyer and seller web apps",
+      "Admin panel",
+      "Payments integration",
+      "Deployment"
+    ],
+    "services": [
+      "web-applications-websites",
+      "saas-mvp-development"
+    ],
+    "stack": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Payments"
+    ]
+  },
+  {
+    "slug": "billspro",
+    "name": "BillsPro",
+    "clientType": "Payments app",
+    "category": "Mobile",
+    "platform": "iOS and Android",
+    "summary": "A mobile app bringing bill payments, a wallet and virtual cards into one product.",
+    "challenge": "Combine several payment actions in one app without overwhelming customers.",
+    "solution": "We built a mobile-first app with clear transaction flows, status visibility and admin controls behind it.",
+    "features": [
+      {
+        "title": "Digital wallet",
+        "text": "Balance, top-ups and transaction history."
+      },
+      {
+        "title": "Bill payments",
+        "text": "Guided flows for paying everyday bills."
+      },
+      {
+        "title": "Virtual cards",
+        "text": "Card creation and management inside the app."
+      },
+      {
+        "title": "Transaction monitoring",
+        "text": "Admin views to track and support transactions."
+      }
+    ],
+    "scope": [
+      "Mobile UI and UX design",
+      "Cross-platform app build",
+      "Back-end APIs",
+      "Admin panel",
+      "Store publishing"
+    ],
+    "services": [
+      "mobile-app-development"
+    ],
+    "stack": [
+      "React Native",
+      "Node.js",
+      "PostgreSQL",
+      "Payment APIs"
+    ]
+  }
+]

@@ -1,0 +1,952 @@
+[
+  {
+    "slug": "saas-mvp-development",
+    "title": "SaaS & MVP development",
+    "short": "Turn an idea into a launch-ready product, then keep improving it with real users.",
+    "intro": "We scope, design, build and deploy your first version, then iterate with real usage so the product grows in the right direction.",
+    "tags": [
+      "MVP",
+      "SaaS",
+      "Billing",
+      "Deploy"
+    ],
+    "audience": [
+      {
+        "title": "Non-technical founders",
+        "text": "You know the problem and the customer. We bring the product thinking and the engineering team."
+      },
+      {
+        "title": "Businesses productising a tool",
+        "text": "You built something internally that others would pay for and want to turn it into SaaS."
+      },
+      {
+        "title": "Teams rebuilding a product",
+        "text": "Your first version proved demand but the code cannot carry the next stage."
+      },
+      {
+        "title": "Agencies with a product client",
+        "text": "Your client needs a real product, not a website, and you need a reliable build partner."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Unclear scope and a feature list that keeps growing",
+        "fix": "A discovery sprint that ranks features and fixes the smallest version worth launching"
+      },
+      {
+        "problem": "A slow, expensive path to the first paying users",
+        "fix": "A fixed-scope first release, with weekly progress you can see and test"
+      },
+      {
+        "problem": "Fragile code that breaks as soon as users arrive",
+        "fix": "A clean architecture, code reviews and automated deployment from day one"
+      },
+      {
+        "problem": "No plan for billing, user roles or analytics",
+        "fix": "Subscriptions, roles, permissions and product analytics built into the first release"
+      }
+    ],
+    "features": [
+      {
+        "title": "Accounts and onboarding",
+        "text": "Sign-up, login, social sign-in, team invites and a first-run experience that gets users to value quickly."
+      },
+      {
+        "title": "Subscriptions and billing",
+        "text": "Plans, trials, invoices and payment providers such as Stripe, set up so you can change pricing later."
+      },
+      {
+        "title": "Roles and permissions",
+        "text": "Owners, admins and members with the right access, ready for multi-tenant SaaS."
+      },
+      {
+        "title": "Admin panel",
+        "text": "A back office for your team to manage users, content, plans and support requests."
+      },
+      {
+        "title": "Analytics and events",
+        "text": "Product events and dashboards so you can see what users actually do."
+      },
+      {
+        "title": "Integrations and APIs",
+        "text": "Email, notifications, third-party tools and a documented API if your customers need one."
+      }
+    ],
+    "deliverables": [
+      "Discovery workshop and written scope",
+      "UX flows and UI design",
+      "Web app with admin panel",
+      "Subscriptions, billing and user roles",
+      "Cloud deployment with CI/CD",
+      "Analytics, monitoring and post-launch iterations"
+    ],
+    "steps": [
+      {
+        "title": "Discovery sprint",
+        "text": "We map users, the core workflow and the smallest version worth launching.",
+        "output": "Written scope, feature priorities and timeline"
+      },
+      {
+        "title": "Product design",
+        "text": "User flows, wireframes and a clickable UI you can test before code is written.",
+        "output": "Approved designs and a clickable prototype"
+      },
+      {
+        "title": "Build in sprints",
+        "text": "Features shipped to a test environment in short cycles with weekly updates.",
+        "output": "Working software you can review every week"
+      },
+      {
+        "title": "Launch",
+        "text": "Production setup, domain, SSL, payments, monitoring and store or web release.",
+        "output": "A live product and a launch checklist"
+      },
+      {
+        "title": "Iterate",
+        "text": "We read real usage and feedback, then plan and build the next improvements.",
+        "output": "A prioritised roadmap for the next release"
+      }
+    ],
+    "stack": [
+      "Laravel",
+      "Node.js",
+      "React",
+      "Next.js",
+      "PostgreSQL",
+      "MySQL",
+      "Stripe",
+      "AWS",
+      "Docker"
+    ],
+    "faqs": [
+      {
+        "q": "How long does an MVP take?",
+        "a": "Most MVPs take 6–12 weeks. You receive a written timeline after the discovery sprint."
+      },
+      {
+        "q": "Will I own the code?",
+        "a": "Yes. You own the code, designs and accounts, with a full handover."
+      },
+      {
+        "q": "Can you help decide what to build first?",
+        "a": "Yes. Discovery is where we prioritise the smallest version that proves value."
+      },
+      {
+        "q": "I am not technical. Is that a problem?",
+        "a": "No. We explain decisions in plain language and recommend the technology, so you can focus on customers."
+      },
+      {
+        "q": "What happens after launch?",
+        "a": "You can keep us on a care plan or a monthly team to fix issues, ship improvements and scale the product."
+      },
+      {
+        "q": "Can you take over an existing MVP?",
+        "a": "Yes. We start with a code and infrastructure review, then recommend whether to improve or rebuild parts of it."
+      }
+    ],
+    "relatedWork": [
+      "colala-mall"
+    ],
+    "related": [
+      "web-applications-websites",
+      "ai-integration-automation",
+      "mobile-app-development"
+    ]
+  },
+  {
+    "slug": "web-applications-websites",
+    "title": "Web applications & websites",
+    "short": "Custom platforms, client portals, business websites and online stores built around how you work.",
+    "intro": "From a fast business website to a full client portal, we design and build web products that fit your workflow instead of forcing you into someone else's.",
+    "tags": [
+      "Websites",
+      "Portals",
+      "E-commerce",
+      "CMS"
+    ],
+    "audience": [
+      {
+        "title": "Service businesses",
+        "text": "Clinics, academies, gyms, salons and firms that need a website which actually brings enquiries."
+      },
+      {
+        "title": "Companies on spreadsheets",
+        "text": "Teams running operations from sheets and inboxes that need a proper portal."
+      },
+      {
+        "title": "Retail brands",
+        "text": "Shops that want to sell online with payments, delivery and stock in one place."
+      },
+      {
+        "title": "Teams with a slow platform",
+        "text": "Businesses whose current site or system is outdated, slow or hard to update."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "A website that looks dated and brings few enquiries",
+        "fix": "A modern, fast design with clear calls to action, WhatsApp and contact forms"
+      },
+      {
+        "problem": "Manual work spread across spreadsheets and chats",
+        "fix": "A web portal with the forms, records and dashboards your team needs"
+      },
+      {
+        "problem": "Disconnected tools and payment systems",
+        "fix": "Integrations that connect payments, email, CRM and accounting"
+      },
+      {
+        "problem": "Content only a developer can update",
+        "fix": "A CMS or admin panel so your team edits pages, products and posts"
+      }
+    ],
+    "features": [
+      {
+        "title": "Business websites",
+        "text": "Fast, mobile-first sites with service pages, lead capture and on-page SEO basics."
+      },
+      {
+        "title": "E-commerce stores",
+        "text": "Catalogue, cart, checkout, payments, delivery options and order management."
+      },
+      {
+        "title": "Client portals",
+        "text": "Secure areas where customers log in to see orders, documents, bookings or progress."
+      },
+      {
+        "title": "Dashboards and admin panels",
+        "text": "Internal tools that replace spreadsheets with clear, permissioned workflows."
+      },
+      {
+        "title": "Content management",
+        "text": "WordPress, headless CMS or a custom admin so non-developers can publish."
+      },
+      {
+        "title": "Integrations",
+        "text": "Payment gateways, CRMs, email marketing, maps, analytics and third-party APIs."
+      }
+    ],
+    "deliverables": [
+      "Information architecture and UI design",
+      "Business websites and landing pages",
+      "E-commerce stores with payments",
+      "Portals, dashboards and admin panels",
+      "API integrations",
+      "Hosting, domain, SSL and deployment"
+    ],
+    "steps": [
+      {
+        "title": "Discovery",
+        "text": "We review your goals, current site or tools, competitors and what visitors need to do.",
+        "output": "Sitemap or feature list and a written estimate"
+      },
+      {
+        "title": "Design",
+        "text": "Page layouts and UI designs for desktop and mobile, reviewed with you.",
+        "output": "Approved designs for key pages and screens"
+      },
+      {
+        "title": "Build",
+        "text": "Development with a CMS or admin, integrations and content entry.",
+        "output": "A test link you can review as it grows"
+      },
+      {
+        "title": "Launch",
+        "text": "Hosting, domain, SSL, redirects, analytics and speed checks before go-live.",
+        "output": "A live site with access handed over to you"
+      },
+      {
+        "title": "Support",
+        "text": "Updates, backups, fixes and improvements on a care plan.",
+        "output": "A site that stays secure and current"
+      }
+    ],
+    "stack": [
+      "React",
+      "Next.js",
+      "Laravel",
+      "Node.js",
+      "WordPress",
+      "Shopify",
+      "Tailwind CSS",
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "faqs": [
+      {
+        "q": "Can you redesign our existing website?",
+        "a": "Yes. We can redesign and rebuild it while keeping your content, SEO value and integrations."
+      },
+      {
+        "q": "Can we edit the content ourselves?",
+        "a": "Yes. We set up a CMS or admin panel so your team can update content without a developer."
+      },
+      {
+        "q": "Do you handle hosting and domain?",
+        "a": "Yes. We set up hosting, domain, SSL and deployment, and can manage them for you."
+      },
+      {
+        "q": "WordPress, Shopify or custom?",
+        "a": "It depends on what you need to manage. We recommend the simplest option that fits, and explain why."
+      },
+      {
+        "q": "Will the site work well on phones?",
+        "a": "Yes. Every page is designed and tested for mobile first."
+      },
+      {
+        "q": "Can you connect our payment gateway?",
+        "a": "Yes. We integrate international and local payment providers, depending on where you sell."
+      }
+    ],
+    "relatedWork": [
+      "kokolet-luxury",
+      "colala-mall"
+    ],
+    "related": [
+      "booking-business-management-systems",
+      "saas-mvp-development",
+      "white-label-development"
+    ]
+  },
+  {
+    "slug": "mobile-app-development",
+    "title": "Mobile app development",
+    "short": "iOS and Android apps that connect to your systems and get published to the stores.",
+    "intro": "We build cross-platform mobile apps with the back end and admin panel behind them, then publish and maintain them on the App Store and Google Play.",
+    "tags": [
+      "iOS",
+      "Android",
+      "React Native",
+      "Flutter"
+    ],
+    "audience": [
+      {
+        "title": "Startups launching an app",
+        "text": "A consumer or marketplace app that needs to reach both stores from one codebase."
+      },
+      {
+        "title": "Businesses adding an app",
+        "text": "Customers who want to book, order or pay from their phone."
+      },
+      {
+        "title": "Marketplaces and platforms",
+        "text": "Two-sided apps for customers and providers, with an admin to run it."
+      },
+      {
+        "title": "Field and operations teams",
+        "text": "Staff apps for check-ins, jobs, forms and photos on the move."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Two separate builds doubling the cost",
+        "fix": "One React Native or Flutter codebase for iOS and Android"
+      },
+      {
+        "problem": "Apps that crash or feel slow",
+        "fix": "Performance testing on real devices and crash monitoring after release"
+      },
+      {
+        "problem": "No back end or admin control",
+        "fix": "APIs and an admin panel built alongside the app"
+      },
+      {
+        "problem": "Store rejections and publishing delays",
+        "fix": "We prepare listings, policies and builds to the store guidelines and handle review"
+      }
+    ],
+    "features": [
+      {
+        "title": "Cross-platform build",
+        "text": "One codebase, native look and feel on iOS and Android."
+      },
+      {
+        "title": "Back end and APIs",
+        "text": "Secure APIs, databases and file storage behind the app."
+      },
+      {
+        "title": "Admin panel",
+        "text": "A web dashboard to manage users, content, orders and settings."
+      },
+      {
+        "title": "Push notifications",
+        "text": "Targeted notifications for reminders, updates and offers."
+      },
+      {
+        "title": "Payments",
+        "text": "In-app purchases or payment gateways, depending on what you sell."
+      },
+      {
+        "title": "Store publishing",
+        "text": "App Store and Google Play listings, builds, review and release updates."
+      }
+    ],
+    "deliverables": [
+      "Mobile UX and UI design",
+      "Cross-platform iOS and Android build",
+      "Back-end APIs and admin panel",
+      "Push notifications and in-app payments",
+      "App Store and Google Play publishing",
+      "Crash monitoring and updates"
+    ],
+    "steps": [
+      {
+        "title": "Discovery",
+        "text": "Users, core journeys, the screens that matter and what the back end must do.",
+        "output": "Feature list, screen map and estimate"
+      },
+      {
+        "title": "App design",
+        "text": "Mobile UI for key screens, with a clickable prototype to test on your phone.",
+        "output": "Approved designs and prototype"
+      },
+      {
+        "title": "Build",
+        "text": "App, APIs and admin built in sprints, with test builds on your device.",
+        "output": "Test builds every sprint"
+      },
+      {
+        "title": "Store release",
+        "text": "Store listings, privacy details, builds and submission to Apple and Google.",
+        "output": "Your app live on both stores"
+      },
+      {
+        "title": "Support",
+        "text": "OS updates, crash fixes and new features after launch.",
+        "output": "Release notes for every update"
+      }
+    ],
+    "stack": [
+      "React Native",
+      "Flutter",
+      "Expo",
+      "Firebase",
+      "Node.js",
+      "Laravel",
+      "OneSignal"
+    ],
+    "faqs": [
+      {
+        "q": "Native or cross-platform?",
+        "a": "We usually recommend React Native or Flutter: one codebase for iOS and Android, with near-native performance."
+      },
+      {
+        "q": "Will you publish the app to the stores?",
+        "a": "Yes. We handle App Store and Google Play submission and review."
+      },
+      {
+        "q": "Can the app work with our existing system?",
+        "a": "Yes. We connect the app to your existing database, APIs or software."
+      },
+      {
+        "q": "Whose developer account is used?",
+        "a": "Yours. We help you create Apple and Google developer accounts so the app belongs to you."
+      },
+      {
+        "q": "Do you build the admin panel too?",
+        "a": "Yes. Most apps need a web admin, and we build it alongside the app."
+      },
+      {
+        "q": "What about updates after launch?",
+        "a": "We keep the app compatible with new iOS and Android versions on a care plan."
+      }
+    ],
+    "relatedWork": [
+      "billspro"
+    ],
+    "related": [
+      "saas-mvp-development",
+      "booking-business-management-systems",
+      "ai-integration-automation"
+    ]
+  },
+  {
+    "slug": "booking-business-management-systems",
+    "title": "Booking & business management systems",
+    "short": "Online booking, memberships, CRMs and ERP-style systems that replace manual work.",
+    "intro": "We build booking and management systems shaped around your exact workflow, so appointments, payments, staff and reports live in one place you own.",
+    "tags": [
+      "Booking",
+      "CRM",
+      "Memberships",
+      "Reports"
+    ],
+    "audience": [
+      {
+        "title": "Clinics and practices",
+        "text": "Dentists, physiotherapists and clinics managing appointments, patients and staff."
+      },
+      {
+        "title": "Gyms, salons and studios",
+        "text": "Memberships, classes, packages and staff schedules in one system."
+      },
+      {
+        "title": "Academies and tutors",
+        "text": "Enrolments, batches, fees, attendance and parent updates."
+      },
+      {
+        "title": "Growing SMEs",
+        "text": "Rentals, home services and multi-branch businesses outgrowing spreadsheets."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Bookings managed by phone calls and WhatsApp",
+        "fix": "Online booking with live availability, linked to your calendar"
+      },
+      {
+        "problem": "No-shows and missed payments",
+        "fix": "Deposits, online payments and automatic SMS, email or WhatsApp reminders"
+      },
+      {
+        "problem": "Customer records scattered everywhere",
+        "fix": "One customer database with history, notes, packages and invoices"
+      },
+      {
+        "problem": "No clear view of revenue across branches",
+        "fix": "An owner dashboard with bookings, revenue and staff reports by branch"
+      }
+    ],
+    "features": [
+      {
+        "title": "Online booking",
+        "text": "Services, staff, availability, buffers and booking rules that match how you work."
+      },
+      {
+        "title": "Payments and invoices",
+        "text": "Deposits, full payments, packages and invoices, online or at the counter."
+      },
+      {
+        "title": "Reminders",
+        "text": "Automatic SMS, email or WhatsApp reminders and follow-ups."
+      },
+      {
+        "title": "Customer records",
+        "text": "Profiles, history, notes, memberships and documents in one place."
+      },
+      {
+        "title": "Staff and branches",
+        "text": "Schedules, commissions, permissions and multiple locations."
+      },
+      {
+        "title": "Reports and dashboard",
+        "text": "Bookings, revenue, utilisation and top services at a glance."
+      }
+    ],
+    "deliverables": [
+      "Online booking with availability calendars",
+      "Payments, deposits and invoices",
+      "SMS, email and WhatsApp reminders",
+      "Memberships, packages and customer records",
+      "Staff, inventory and branch management",
+      "Reports and owner dashboard"
+    ],
+    "steps": [
+      {
+        "title": "Workflow mapping",
+        "text": "We sit with you and your staff to map how bookings, payments and records work today.",
+        "output": "Workflow map and system scope"
+      },
+      {
+        "title": "Design",
+        "text": "Booking screens for customers and admin screens for your team.",
+        "output": "Approved screens for both sides"
+      },
+      {
+        "title": "Build",
+        "text": "Booking engine, payments, reminders and dashboard built in sprints.",
+        "output": "A test system you can try with real scenarios"
+      },
+      {
+        "title": "Data move and training",
+        "text": "We import customers and services, then train your staff.",
+        "output": "Your data in the new system and a trained team"
+      },
+      {
+        "title": "Go live and support",
+        "text": "Launch, monitoring and adjustments as your team uses it day to day.",
+        "output": "A stable system and a care plan"
+      }
+    ],
+    "stack": [
+      "Laravel",
+      "React",
+      "Node.js",
+      "MySQL",
+      "Stripe",
+      "Twilio",
+      "WhatsApp Business API",
+      "Google Calendar API"
+    ],
+    "faqs": [
+      {
+        "q": "Why custom instead of a ready-made app?",
+        "a": "It follows your workflow and branding, has no per-user monthly fees, and you own it."
+      },
+      {
+        "q": "Can customers get a mobile app too?",
+        "a": "Yes. We can add a customer app for booking, payments and reminders."
+      },
+      {
+        "q": "Does it support multiple branches?",
+        "a": "Yes. Branches, staff and reports can be managed from one dashboard."
+      },
+      {
+        "q": "Can you move our existing data?",
+        "a": "Yes. We import customers, services and history from spreadsheets or your current software."
+      },
+      {
+        "q": "Can reminders go out on WhatsApp?",
+        "a": "Yes, through the WhatsApp Business API, as well as SMS and email."
+      },
+      {
+        "q": "Will our staff need training?",
+        "a": "We train your team during go-live and leave short guides for new staff."
+      }
+    ],
+    "relatedWork": [
+      "colala-mall"
+    ],
+    "related": [
+      "web-applications-websites",
+      "mobile-app-development",
+      "ai-integration-automation"
+    ]
+  },
+  {
+    "slug": "ai-integration-automation",
+    "title": "AI integration & automation",
+    "short": "AI agents, agentic workflows, LLM features, RAG chatbots and automation built into your product and operations.",
+    "intro": "We design and build AI agents and automated workflows that take real work off your team, from LLM features and RAG knowledge assistants to multi-step agents that act across your tools, with guardrails, monitoring and human review.",
+    "tags": [
+      "AI agents",
+      "LLMs",
+      "RAG",
+      "Automation"
+    ],
+    "audience": [
+      {
+        "title": "SaaS products",
+        "text": "Products adding AI features such as assistants, smart search, summaries, drafting or in-app agents."
+      },
+      {
+        "title": "Support and sales teams",
+        "text": "Teams answering the same questions every day on chat, email and WhatsApp, or qualifying leads by hand."
+      },
+      {
+        "title": "Operations teams",
+        "text": "People copying data out of PDFs, forms and emails into other systems, or chasing multi-step processes."
+      },
+      {
+        "title": "Busy owners",
+        "text": "Businesses that want repetitive admin work handled by agents and automations instead of people."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Hours lost to repetitive, multi-step manual tasks",
+        "fix": "AI agents and automated workflows that carry out the steps across your tools"
+      },
+      {
+        "problem": "Slow answers to common customer questions",
+        "fix": "A RAG assistant grounded in your own documents, with hand-off to a human"
+      },
+      {
+        "problem": "Knowledge scattered across documents, drives and chats",
+        "fix": "A searchable knowledge base your team and customers can ask in plain language"
+      },
+      {
+        "problem": "Data trapped in PDFs and emails",
+        "fix": "LLM document processing that extracts fields into your database or CRM"
+      },
+      {
+        "problem": "AI experiments that never reach production",
+        "fix": "Scoped use cases, evaluations, guardrails, cost limits and monitoring in production"
+      }
+    ],
+    "features": [
+      {
+        "title": "AI agents",
+        "text": "Agents that plan and complete multi-step tasks: look things up, update records, draft replies, book, follow up and escalate."
+      },
+      {
+        "title": "Agentic workflows",
+        "text": "Workflows where LLMs make decisions between steps, with tool calling, approvals and clear audit trails."
+      },
+      {
+        "title": "RAG knowledge assistants",
+        "text": "Assistants grounded in your documents, FAQs, policies and databases using retrieval-augmented generation and vector search."
+      },
+      {
+        "title": "LLM features in your product",
+        "text": "Summaries, drafting, classification, extraction and semantic search using OpenAI, Claude, Gemini or open-source models."
+      },
+      {
+        "title": "Chatbots for web and WhatsApp",
+        "text": "Customer-facing assistants that answer, qualify leads and hand over to your team when needed."
+      },
+      {
+        "title": "Workflow automation",
+        "text": "Connect forms, CRMs, sheets, email and WhatsApp with n8n, Make, Zapier or custom code."
+      },
+      {
+        "title": "Document processing",
+        "text": "Extract data from invoices, forms, CVs, contracts and PDFs into structured records."
+      },
+      {
+        "title": "Human in the loop",
+        "text": "Approval steps where accuracy matters, so AI assists people rather than replacing judgement."
+      },
+      {
+        "title": "Evaluation, monitoring and cost control",
+        "text": "Test sets, logs, quality checks and spend limits so AI stays reliable and affordable."
+      }
+    ],
+    "deliverables": [
+      "Use-case workshop and feasibility check",
+      "AI agents and agentic workflows",
+      "RAG knowledge assistants on your content",
+      "LLM integration (OpenAI, Claude, Gemini, open-source)",
+      "Chatbots for web and WhatsApp",
+      "Workflow automation across your tools",
+      "Document processing and data extraction",
+      "Evaluation, monitoring, cost control and human review"
+    ],
+    "steps": [
+      {
+        "title": "Use-case workshop",
+        "text": "We map repetitive tasks and decisions, and pick the ones where AI agents or automation clearly save time.",
+        "output": "Ranked use cases with effort and risk"
+      },
+      {
+        "title": "Proof of concept",
+        "text": "A small working agent, assistant or workflow tested on your real data.",
+        "output": "A demo and a go or no-go recommendation"
+      },
+      {
+        "title": "Build and integrate",
+        "text": "Production build inside your product or tools, with tool access, guardrails and approvals.",
+        "output": "AI agents and workflows live in your operations"
+      },
+      {
+        "title": "Evaluate and review",
+        "text": "Test sets, accuracy checks, edge cases and human review steps.",
+        "output": "Evaluation results and review process"
+      },
+      {
+        "title": "Monitor and improve",
+        "text": "Usage, quality and cost tracking, with prompt, retrieval and workflow tuning over time.",
+        "output": "A dashboard and regular improvements"
+      }
+    ],
+    "stack": [
+      "OpenAI API",
+      "Anthropic Claude API",
+      "Google Gemini",
+      "Open-source LLMs",
+      "LangChain",
+      "LangGraph",
+      "LlamaIndex",
+      "Pinecone",
+      "pgvector",
+      "Python",
+      "Node.js",
+      "n8n",
+      "Make",
+      "Zapier"
+    ],
+    "faqs": [
+      {
+        "q": "What is an AI agent, in plain terms?",
+        "a": "Software that uses an LLM to decide what to do next and then does it with your tools, such as searching records, updating a CRM or sending a follow-up, within limits you set."
+      },
+      {
+        "q": "What is RAG and why does it matter?",
+        "a": "Retrieval-augmented generation means the AI looks up answers in your own documents and data before replying, so answers are specific to your business and easier to check."
+      },
+      {
+        "q": "Is our data safe?",
+        "a": "We use providers that do not train on your data, limit access, and keep sensitive data out of prompts where possible. Self-hosted open-source models are an option too."
+      },
+      {
+        "q": "Can AI work inside our existing system?",
+        "a": "Yes. We integrate agents and AI features into your current product, CRM, helpdesk or internal tools."
+      },
+      {
+        "q": "How do you keep answers and actions accurate?",
+        "a": "We ground answers in your content, evaluate them against test cases, add guardrails, and keep a human approval step for important actions."
+      },
+      {
+        "q": "What will it cost to run?",
+        "a": "AI providers charge per use. We estimate running costs during the proof of concept and add spend limits."
+      },
+      {
+        "q": "Can the assistant work on WhatsApp?",
+        "a": "Yes. We can connect assistants and agents to your website, WhatsApp Business, email or internal tools."
+      },
+      {
+        "q": "Where should we start?",
+        "a": "With one repetitive task that costs your team time every week. A small win first makes the next step clearer."
+      }
+    ],
+    "relatedWork": [],
+    "related": [
+      "saas-mvp-development",
+      "booking-business-management-systems",
+      "web-applications-websites"
+    ]
+  },
+  {
+    "slug": "white-label-development",
+    "title": "White-label development for agencies",
+    "short": "Your brand, your client relationship. Our team designs, builds and deploys.",
+    "intro": "We work quietly behind your agency, delivering websites, apps and platforms under your brand while you keep the client relationship.",
+    "tags": [
+      "White label",
+      "NDA",
+      "Your brand",
+      "Capacity"
+    ],
+    "audience": [
+      {
+        "title": "Digital marketing agencies",
+        "text": "You sell growth and need websites, funnels and apps built properly."
+      },
+      {
+        "title": "Design and UX studios",
+        "text": "You own the design and need developers who respect it pixel for pixel."
+      },
+      {
+        "title": "Industry-focused agencies",
+        "text": "You serve clinics, gyms or real estate and need repeatable builds."
+      },
+      {
+        "title": "Consultants and AI agencies",
+        "text": "You sell automation and AI and need engineers to deliver it."
+      }
+    ],
+    "problems": [
+      {
+        "problem": "Saying no to projects you cannot build",
+        "fix": "A development team you can sell, without hiring"
+      },
+      {
+        "problem": "Unreliable freelancers and missed deadlines",
+        "fix": "A managed team with a project lead, weekly updates and written timelines"
+      },
+      {
+        "problem": "Hiring developers is slow and costly",
+        "fix": "Capacity per project or by the month, scaled to your pipeline"
+      },
+      {
+        "problem": "Quality issues that damage your reputation",
+        "fix": "Code reviews, testing and documentation on every delivery"
+      }
+    ],
+    "features": [
+      {
+        "title": "Proposal support",
+        "text": "Technical scoping, timelines and architecture notes you can put in your proposals."
+      },
+      {
+        "title": "Delivery under your brand",
+        "text": "Your name on everything. We stay invisible unless you choose otherwise."
+      },
+      {
+        "title": "Confidentiality",
+        "text": "Mutual NDA, no direct client contact and no portfolio use without permission."
+      },
+      {
+        "title": "Your tools and process",
+        "text": "We work in your Slack, Jira, Trello or ClickUp and follow your process."
+      },
+      {
+        "title": "Deployment",
+        "text": "Releases to your servers or your client's, with handover documentation."
+      },
+      {
+        "title": "Ongoing support",
+        "text": "Maintenance and updates after launch, billed to you, delivered under your brand."
+      }
+    ],
+    "deliverables": [
+      "Technical scoping for your proposals",
+      "Development under your brand",
+      "Mutual NDA and no client contact",
+      "Deployment to your or your client's servers",
+      "Handover documentation",
+      "Ongoing maintenance and support"
+    ],
+    "steps": [
+      {
+        "title": "Share the brief",
+        "text": "Send the opportunity, designs or client notes under NDA.",
+        "output": "A quick fit check"
+      },
+      {
+        "title": "Scope together",
+        "text": "We estimate effort and timeline for your proposal.",
+        "output": "Scope and timeline you can price"
+      },
+      {
+        "title": "Build under your brand",
+        "text": "Delivery in your tools, with updates you can forward to your client.",
+        "output": "Weekly updates and test links"
+      },
+      {
+        "title": "Deploy and hand over",
+        "text": "Release, documentation and handover to you or your client.",
+        "output": "Live project and documentation"
+      },
+      {
+        "title": "Support",
+        "text": "Fixes and improvements after launch, still under your name.",
+        "output": "Ongoing white-label support"
+      }
+    ],
+    "stack": [
+      "React",
+      "Next.js",
+      "Laravel",
+      "Node.js",
+      "WordPress",
+      "Shopify",
+      "React Native",
+      "Flutter"
+    ],
+    "faqs": [
+      {
+        "q": "Will our clients know you are involved?",
+        "a": "No. We work under your brand with a mutual NDA and no direct client contact unless you want it."
+      },
+      {
+        "q": "Can you help with proposals?",
+        "a": "Yes. We provide technical scoping and timelines you can use in your proposals."
+      },
+      {
+        "q": "Do you offer a monthly team?",
+        "a": "Yes. You can work per project or reserve monthly development capacity."
+      },
+      {
+        "q": "Can you join client calls as part of our team?",
+        "a": "Yes, if you want, using your agency's name and email addresses."
+      },
+      {
+        "q": "Who owns the code?",
+        "a": "You or your client, as agreed in your contract. We hand over everything at the end."
+      },
+      {
+        "q": "Can you work from our designs?",
+        "a": "Yes. We build from Figma, Adobe XD or any design files you provide."
+      }
+    ],
+    "relatedWork": [
+      "kokolet-luxury"
+    ],
+    "related": [
+      "web-applications-websites",
+      "mobile-app-development",
+      "saas-mvp-development"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "LogicsGrid",
+  "domain": "logicsgrid.org",
+  "email": "hello@logicsgrid.org",
+  "emailHref": "mailto:hello@logicsgrid.org",
+  "phone": "+92 329 0112060",
+  "phoneHref": "tel:+923290112060",
+  "whatsappHref": "https://wa.me/923290112060",
+  "location": "Faisalabad, Punjab, Pakistan",
+  "hours": "Mon–Sat, 10 am – 7 pm PKT",
+  "hoursNote": "with overlap hours for UK, US and Gulf clients",
+  "tagline": "Design, development, deployment and support, A to Z.",
+  "title": "LogicsGrid | Software, app & AI development in Pakistan",
+  "description": "SaaS products, web and mobile apps, booking systems and AI automation, designed, built, deployed and supported by LogicsGrid in Faisalabad, Pakistan.",
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "+",
+      "label": "Years of experience"
+    },
+    {
+      "value": 200,
+      "suffix": "+",
+      "label": "Projects delivered"
+    },
+    {
+      "value": 20,
+      "suffix": "+",
+      "label": "Team members"
+    },
+    {
+      "value": 6,
+      "suffix": "",
+      "label": "Core services"
+    }
+  ]
+}

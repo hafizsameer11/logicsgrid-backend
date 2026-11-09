@@ -1,0 +1,121 @@
+[
+  {
+    "title": "Back end",
+    "text": "APIs, business logic, queues and integrations.",
+    "core": [
+      "Laravel",
+      "Node.js",
+      "Python",
+      "PHP"
+    ],
+    "also": [
+      "Express",
+      "NestJS",
+      "Django",
+      "FastAPI",
+      ".NET",
+      "Java"
+    ]
+  },
+  {
+    "title": "Front end",
+    "text": "Fast, accessible web interfaces and dashboards.",
+    "core": [
+      "React",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "also": [
+      "TypeScript",
+      "Vue.js",
+      "Inertia.js"
+    ]
+  },
+  {
+    "title": "Mobile",
+    "text": "Cross-platform apps for iOS and Android.",
+    "core": [
+      "React Native",
+      "Flutter"
+    ],
+    "also": [
+      "Expo",
+      "Firebase",
+      "OneSignal"
+    ]
+  },
+  {
+    "title": "Databases",
+    "text": "Reliable storage for transactional and reporting data.",
+    "core": [
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "also": [
+      "MongoDB",
+      "Redis",
+      "Firestore"
+    ]
+  },
+  {
+    "title": "AI, agents and automation",
+    "text": "AI agents, agentic workflows, LLM features, RAG and automation.",
+    "core": [
+      "OpenAI API",
+      "Anthropic Claude API",
+      "LangChain",
+      "LangGraph",
+      "n8n"
+    ],
+    "also": [
+      "Google Gemini",
+      "Open-source LLMs",
+      "LlamaIndex",
+      "Pinecone",
+      "pgvector",
+      "Make",
+      "Zapier"
+    ]
+  },
+  {
+    "title": "CMS and e-commerce",
+    "text": "Content and stores your team can manage.",
+    "core": [
+      "WordPress",
+      "Shopify"
+    ],
+    "also": [
+      "WooCommerce",
+      "Headless CMS"
+    ]
+  },
+  {
+    "title": "Cloud and deployment",
+    "text": "Hosting, pipelines and monitoring.",
+    "core": [
+      "AWS",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "also": [
+      "DigitalOcean",
+      "Vercel",
+      "Cloudflare",
+      "Nginx"
+    ]
+  },
+  {
+    "title": "Integrations",
+    "text": "Payments, messaging and third-party services.",
+    "core": [
+      "Stripe",
+      "WhatsApp Business API"
+    ],
+    "also": [
+      "Twilio",
+      "Google Calendar API",
+      "PayPal",
+      "Local payment gateways"
+    ]
+  }
+]

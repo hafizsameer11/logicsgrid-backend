@@ -1,0 +1,118 @@
+{
+  "carePlans": [
+    {
+      "name": "Essential",
+      "for": "Websites and smaller systems that need to stay secure and online.",
+      "points": [
+        "Uptime monitoring",
+        "Security and dependency updates",
+        "Regular backups",
+        "Bug fixes",
+        "Small content changes"
+      ]
+    },
+    {
+      "name": "Growth",
+      "for": "Live products that need regular improvements as well as care.",
+      "points": [
+        "Everything in Essential",
+        "A monthly block of development time",
+        "Performance reviews",
+        "New features and integrations",
+        "Monthly progress report"
+      ]
+    },
+    {
+      "name": "Dedicated team",
+      "for": "Products and agencies that need ongoing, reserved capacity.",
+      "points": [
+        "Developers reserved for your work",
+        "Project lead and planning",
+        "Weekly sprints and updates",
+        "Design, QA and DevOps as needed",
+        "Scale the team up or down"
+      ]
+    }
+  ],
+  "careCompare": {
+    "columns": [
+      "Essential",
+      "Growth",
+      "Dedicated team"
+    ],
+    "rows": [
+      {
+        "label": "Uptime and error monitoring",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Security and dependency updates",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Backups",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Bug fixes",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Content and small changes",
+        "values": [
+          true,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "New features",
+        "values": [
+          false,
+          "Monthly block",
+          "Ongoing"
+        ]
+      },
+      {
+        "label": "Performance reviews",
+        "values": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "label": "Progress reporting",
+        "values": [
+          "On request",
+          "Monthly",
+          "Weekly"
+        ]
+      },
+      {
+        "label": "Reserved developers",
+        "values": [
+          false,
+          false,
+          true
+        ]
+      }
+    ]
+  }
+}

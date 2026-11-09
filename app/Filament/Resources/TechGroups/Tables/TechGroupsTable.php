@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Filament\Resources\TechGroups\Tables;
+
+use Filament\Actions\DeleteAction;
+use Filament\Actions\EditAction;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Table;
+
+class TechGroupsTable
+{
+    public static function configure(Table $table): Table
+    {
+        return $table
+            ->defaultSort('sort_order')
+            ->reorderable('sort_order')
+            ->columns([
+                TextColumn::make('title')->weight('medium')->description(fn ($record) => $record->text),
+                TextColumn::make('core')->badge()->separator(','),
+            ])
+            ->recordActions([EditAction::make(), DeleteAction::make()]);
+    }
+}

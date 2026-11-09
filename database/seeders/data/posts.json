@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "from-mvp-to-operating-system",
+    "title": "From MVP to operating system",
+    "category": "Product",
+    "excerpt": "What changes when a promising product starts carrying real operational weight.",
+    "date": "September 18, 2026",
+    "readTime": "6 min read",
+    "sections": [
+      {
+        "heading": "The product is only the beginning",
+        "body": "An MVP proves that a useful interaction exists. A durable business needs the workflows, data, controls, and feedback loops around that interaction to mature with it."
+      },
+      {
+        "heading": "Design for the next constraint",
+        "body": "Good architecture does not predict every future. It makes the next likely change easier, observable, and safer to ship."
+      },
+      {
+        "heading": "Operate what you build",
+        "body": "The strongest product teams connect engineering decisions to adoption, support, revenue, and operational efficiency."
+      }
+    ]
+  },
+  {
+    "slug": "automation-before-ai",
+    "title": "Automate the workflow before adding AI",
+    "category": "AI",
+    "excerpt": "A practical sequence for making AI useful inside day-to-day operations.",
+    "date": "August 27, 2026",
+    "readTime": "5 min read",
+    "sections": [
+      {
+        "heading": "Start with the handoffs",
+        "body": "AI cannot rescue a process nobody can explain. Map the decisions, owners, inputs, and exceptions before choosing a model."
+      },
+      {
+        "heading": "Make quality measurable",
+        "body": "Define what a correct outcome looks like, then keep a human review path for low-confidence cases."
+      },
+      {
+        "heading": "Earn autonomy",
+        "body": "Start with recommendations, measure performance, and expand automation only when the evidence supports it."
+      }
+    ]
+  },
+  {
+    "slug": "one-accountable-technology-partner",
+    "title": "Why one accountable technology partner changes delivery",
+    "category": "Operations",
+    "excerpt": "Reducing handoffs can improve speed, ownership, and the quality of business decisions.",
+    "date": "July 9, 2026",
+    "readTime": "7 min read",
+    "sections": [
+      {
+        "heading": "Handoffs hide risk",
+        "body": "When strategy, design, engineering, growth, and operations report to different owners, important context disappears between teams."
+      },
+      {
+        "heading": "One outcome, one system",
+        "body": "Shared goals let technical and commercial decisions reinforce each other instead of competing for attention."
+      },
+      {
+        "heading": "Continuity compounds",
+        "body": "A partner who stays after launch can connect production evidence to the next roadmap decision."
+      }
+    ]
+  }
+]

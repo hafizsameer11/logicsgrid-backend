@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Servers and hosting",
+    "text": "Cloud or shared hosting set up for your traffic and budget."
+  },
+  {
+    "title": "Domains and SSL",
+    "text": "Domain, DNS, email records and HTTPS configured correctly."
+  },
+  {
+    "title": "CI/CD",
+    "text": "Automated build and release so updates go out safely."
+  },
+  {
+    "title": "App store releases",
+    "text": "Apple and Google submissions, listings and review handling."
+  },
+  {
+    "title": "Monitoring",
+    "text": "Uptime, error and performance alerts after launch."
+  },
+  {
+    "title": "Handover",
+    "text": "Accounts, access, code and documentation handed to you."
+  }
+]
