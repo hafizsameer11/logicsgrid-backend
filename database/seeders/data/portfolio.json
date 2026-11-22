@@ -641,6 +641,59 @@
     ]
   },
   {
+    "slug": "vista-express",
+    "name": "Vista Express",
+    "clientType": "Optical marketplace",
+    "category": "Web",
+    "platform": "Buyer marketplace and seller portal",
+    "summary": "A multi-vendor marketplace built entirely around optical products, with a storefront for buyers and a portal for sellers.",
+    "challenge": "Optical retailers needed one place to sell eyewear and lens products online, and shoppers needed a store made for optical items rather than a general marketplace.",
+    "solution": "We built a multi-vendor marketplace with a buyer storefront for glasses, lenses and eye care, and a separate seller portal where optical stores manage products, orders and customers.",
+    "features": [
+      {
+        "title": "Optical catalogue",
+        "text": "Eyeglasses, sunglasses, contact lenses, eye hygiene and accessories, each with its own category."
+      },
+      {
+        "title": "Multi-vendor stores",
+        "text": "Independent optical retailers sell side by side, with featured stores and top sellers."
+      },
+      {
+        "title": "Seller portal",
+        "text": "A dedicated workspace for sellers to manage products, orders, customers and store settings."
+      },
+      {
+        "title": "Search and filtering",
+        "text": "Search across glasses, lenses and brands, with product colours and options on each listing."
+      }
+    ],
+    "scope": [
+      "Marketplace architecture",
+      "Buyer storefront",
+      "Seller portal",
+      "Mobile-responsive design",
+      "Deployment"
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "Nginx"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://buyer.vistaexpress.it/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg"
+    ]
+  },
+  {
     "slug": "kokolet-luxury",
     "name": "Kokolet Luxury",
     "clientType": "Luxury retail brand",
