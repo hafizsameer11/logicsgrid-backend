@@ -1,0 +1,643 @@
+[
+  {
+    "slug": "troosolar",
+    "name": "Troosolar",
+    "clientType": "Solar energy company",
+    "category": "Web",
+    "platform": "Web and mobile platform",
+    "summary": "A smart solar energy platform for monitoring solar systems, tracking energy generation and managing installations.",
+    "challenge": "Solar owners needed a simpler way to manage their systems, use their energy better and rely less on traditional power, without juggling spreadsheets and installer reports.",
+    "solution": "We built a complete solar management platform where users monitor panel performance, track energy generation and manage system data through a clean, easy interface.",
+    "features": [
+      {
+        "title": "Performance monitoring",
+        "text": "See how each solar system is performing at a glance."
+      },
+      {
+        "title": "Energy tracking",
+        "text": "Track energy generation over time to make better decisions."
+      },
+      {
+        "title": "Installation management",
+        "text": "Keep system and installation data in one place."
+      },
+      {
+        "title": "Solar store",
+        "text": "Browse and buy solar bundles and products online."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Web application",
+      "Mobile app",
+      "Backend and API",
+      "Deployment"
+    ],
+    "stack": [
+      "React",
+      "React Native",
+      "Laravel",
+      "REST API",
+      "MySQL"
+    ],
+    "services": [
+      "web-applications-websites",
+      "mobile-app-development"
+    ],
+    "projectUrl": "https://app.troosolar.io/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "colala-mall",
+    "name": "Colala Mall",
+    "clientType": "Online marketplace",
+    "category": "Web",
+    "platform": "Web marketplace",
+    "summary": "A multi-vendor marketplace that combines online shopping with social features.",
+    "challenge": "Sellers needed one place to list products, manage stock and handle orders, while shoppers wanted a marketplace that felt more connected than a plain catalogue.",
+    "solution": "We built a full multi-vendor ecommerce system with product management, order processing and secure accounts, and added social features so users can share products and talk to sellers.",
+    "features": [
+      {
+        "title": "Multi-vendor stores",
+        "text": "Sellers list products, manage inventory and process their own orders."
+      },
+      {
+        "title": "Social shopping",
+        "text": "Users interact, share products and engage with sellers directly."
+      },
+      {
+        "title": "Order processing",
+        "text": "Orders move from checkout to fulfilment in one flow."
+      },
+      {
+        "title": "Secure accounts",
+        "text": "Authentication for buyers, sellers and admins."
+      }
+    ],
+    "scope": [
+      "Marketplace architecture",
+      "Buyer and seller apps",
+      "Social features",
+      "Admin tools",
+      "Deployment"
+    ],
+    "stack": [
+      "Laravel",
+      "React",
+      "MySQL",
+      "REST API",
+      "Bootstrap",
+      "JavaScript"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://colalamall.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "skillverse",
+    "name": "SkillVerse",
+    "clientType": "Online education",
+    "category": "Web",
+    "platform": "Web platform",
+    "summary": "An online learning platform for practical skills, internships and job preparation.",
+    "challenge": "Students needed practical, industry-ready skills and a clear route from learning to internships and jobs.",
+    "solution": "We built a complete e-learning system with course management, enrolment, progress tracking and content delivery, plus internship listings and career support tools.",
+    "features": [
+      {
+        "title": "Course management",
+        "text": "Create, organise and deliver courses and training programmes."
+      },
+      {
+        "title": "Enrolment and progress",
+        "text": "Students enrol online and track their progress."
+      },
+      {
+        "title": "Internships",
+        "text": "Internship listings connected to the learning journey."
+      },
+      {
+        "title": "Career support",
+        "text": "Job preparation resources and expert guidance."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Learning platform",
+      "Admin panel",
+      "Deployment"
+    ],
+    "stack": [
+      "Laravel",
+      "MySQL",
+      "REST API",
+      "Bootstrap",
+      "JavaScript"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://skillverse.com.pk/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "ndozi-naturals",
+    "name": "Ndozi Naturals",
+    "clientType": "Organic food brand",
+    "category": "Web",
+    "platform": "Web store",
+    "summary": "An online store for organic, plant-based products with a focus on health and quality.",
+    "challenge": "The brand wanted to make its natural, farmer-sourced products easy to discover and buy online, and reach more customers.",
+    "solution": "We built a complete ecommerce store with product listings, categories, filtering and secure checkout, designed to be fast and responsive on every device.",
+    "features": [
+      {
+        "title": "Product catalogue",
+        "text": "Product listings with category management."
+      },
+      {
+        "title": "Filtering",
+        "text": "Shoppers narrow products down quickly by category and price."
+      },
+      {
+        "title": "Secure checkout",
+        "text": "A simple, secure way to pay online."
+      },
+      {
+        "title": "Responsive design",
+        "text": "A smooth shopping experience on phones and desktops."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Store development",
+      "Payments",
+      "Performance optimisation"
+    ],
+    "stack": [
+      "WordPress",
+      "WooCommerce",
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://ndozi.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg"
+    ]
+  },
+  {
+    "slug": "gympaddy",
+    "name": "GymPaddy",
+    "clientType": "Fitness community",
+    "category": "Mobile",
+    "platform": "Android app and website",
+    "summary": "A social fitness app combining community, live sessions and creator monetisation.",
+    "challenge": "People struggle to stay consistent with fitness on their own. The goal was a community that keeps them motivated and gives trainers a way to earn.",
+    "solution": "We built a social fitness ecosystem with user profiles, live streaming, community interaction and a digital marketplace where trainers and creators monetise their content.",
+    "features": [
+      {
+        "title": "Social feed and profiles",
+        "text": "Users connect and share progress with people who have the same goals."
+      },
+      {
+        "title": "Live streaming",
+        "text": "Live sessions that members join and take part in."
+      },
+      {
+        "title": "Marketplace",
+        "text": "A digital marketplace for fitness products and content."
+      },
+      {
+        "title": "Creator monetisation",
+        "text": "Trainers and creators earn from their content."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Mobile app",
+      "Website",
+      "Backend and API",
+      "App store release"
+    ],
+    "stack": [
+      "React Native",
+      "Laravel",
+      "MySQL",
+      "REST API",
+      "Firebase",
+      "WebSockets"
+    ],
+    "services": [
+      "mobile-app-development",
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://gympaddy.net/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg"
+    ]
+  },
+  {
+    "slug": "tercescrow",
+    "name": "Tercescrow",
+    "clientType": "Fintech company",
+    "category": "Mobile",
+    "platform": "iOS, Android and web",
+    "summary": "A fintech platform for trading gift cards, managing crypto and paying bills securely.",
+    "challenge": "Users wanted one safe, fast place to handle gift cards, crypto and payments instead of several separate services.",
+    "solution": "We built mobile apps and a web platform with gift card trading, crypto management, secure payment processing and real-time transaction tracking.",
+    "features": [
+      {
+        "title": "Gift card trading",
+        "text": "Convert gift cards to cash quickly."
+      },
+      {
+        "title": "Crypto management",
+        "text": "Buy, sell and manage crypto assets."
+      },
+      {
+        "title": "Bill payments",
+        "text": "Pay bills from the same app."
+      },
+      {
+        "title": "Transaction tracking",
+        "text": "Follow every transaction in real time."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "iOS and Android apps",
+      "Web platform",
+      "Backend and API",
+      "App store release"
+    ],
+    "stack": [
+      "React Native",
+      "Laravel",
+      "MySQL",
+      "REST API",
+      "Firebase",
+      "Blockchain APIs"
+    ],
+    "services": [
+      "mobile-app-development",
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://tercescrow.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg"
+    ]
+  },
+  {
+    "slug": "earlybaze",
+    "name": "Earlybaze",
+    "clientType": "Crypto exchange",
+    "category": "Mobile",
+    "platform": "iOS, Android and web",
+    "summary": "A crypto exchange app that makes buying, selling and swapping crypto simple for users in Nigeria and beyond.",
+    "challenge": "Traditional exchanges felt complex to new users. The aim was a secure, fast and beginner-friendly way to trade, with a brand people trust.",
+    "solution": "We built a responsive exchange with a mobile-first design, trading, wallet integration, transaction tracking, secure sign-in and a smooth onboarding flow, plus a landing page that builds trust.",
+    "features": [
+      {
+        "title": "Buy, sell and swap",
+        "text": "Trade cryptocurrencies from one simple screen."
+      },
+      {
+        "title": "Wallet management",
+        "text": "Manage digital assets with real-time balance updates."
+      },
+      {
+        "title": "Secure onboarding",
+        "text": "Secure authentication and a guided sign-up."
+      },
+      {
+        "title": "Landing page",
+        "text": "A fast, conversion-focused site with app store links."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "iOS and Android apps",
+      "Landing page",
+      "Backend and API",
+      "App store release"
+    ],
+    "stack": [
+      "Laravel",
+      "React Native",
+      "MySQL",
+      "REST API"
+    ],
+    "services": [
+      "mobile-app-development",
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://earlybazewallet.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg"
+    ]
+  },
+  {
+    "slug": "arctic-gynae-centre",
+    "name": "Arctic Gynae Centre",
+    "clientType": "Healthcare clinic",
+    "category": "Web",
+    "platform": "Website",
+    "summary": "A website for a specialist obstetrics and gynaecology clinic in Lagos, with consultation booking.",
+    "challenge": "The clinic needed a stronger online presence and an easier way for patients to find services, learn about specialists and book appointments.",
+    "solution": "We built a responsive healthcare website with service pages, doctor profiles, consultation booking, enquiry forms and a medical blog.",
+    "features": [
+      {
+        "title": "Service pages",
+        "text": "Clear pages for each specialty and treatment."
+      },
+      {
+        "title": "Doctor profiles",
+        "text": "Patients learn about the clinic's specialists."
+      },
+      {
+        "title": "Appointment booking",
+        "text": "Consultation booking forms on every key page."
+      },
+      {
+        "title": "Medical blog",
+        "text": "Educational content for patients."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Website development",
+      "Booking forms",
+      "SEO setup"
+    ],
+    "stack": [
+      "WordPress",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "services": [
+      "web-applications-websites",
+      "booking-business-management-systems"
+    ],
+    "projectUrl": "https://arcticobgyn.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg"
+    ]
+  },
+  {
+    "slug": "above-lifestyle-lekki",
+    "name": "Above Lifestyle Lekki",
+    "clientType": "Hospitality venue",
+    "category": "Web",
+    "platform": "Website",
+    "summary": "A website for a Lagos restaurant, lounge and nightclub, with menus, events and table reservations.",
+    "challenge": "The venue wanted to attract new guests, promote its experience and make reservations simple.",
+    "solution": "We built a hospitality website with menus, event listings, a gallery, enquiry forms and online table reservations.",
+    "features": [
+      {
+        "title": "Menus",
+        "text": "Food and drinks menus for each part of the venue."
+      },
+      {
+        "title": "Table reservations",
+        "text": "Guests book tables directly online."
+      },
+      {
+        "title": "Events",
+        "text": "Weekly activities and private event options."
+      },
+      {
+        "title": "Gallery",
+        "text": "Photos that show the venue's atmosphere."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Website development",
+      "Reservation system",
+      "Mobile optimisation"
+    ],
+    "stack": [
+      "WordPress",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "services": [
+      "web-applications-websites",
+      "booking-business-management-systems"
+    ],
+    "projectUrl": "https://abovelifestyle.com/lekki/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg"
+    ]
+  },
+  {
+    "slug": "west-sydney-lions",
+    "name": "West Sydney Lions Basketball Academy",
+    "clientType": "Sports academy",
+    "category": "Web",
+    "platform": "Website",
+    "summary": "A website for a basketball academy where players and parents explore programmes and register for training.",
+    "challenge": "Players and parents needed one place to discover programmes, register for sessions and connect with coaches.",
+    "solution": "We built a responsive academy website with programme pages, online registration, coach profiles, news and events, and social media integration.",
+    "features": [
+      {
+        "title": "Programme pages",
+        "text": "Training programmes for every level."
+      },
+      {
+        "title": "Online registration",
+        "text": "Players sign up for sessions online."
+      },
+      {
+        "title": "Coach profiles",
+        "text": "Meet the coaching staff."
+      },
+      {
+        "title": "News and events",
+        "text": "Keep the academy community up to date."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Website development",
+      "Registration forms"
+    ],
+    "stack": [
+      "WordPress",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "services": [
+      "web-applications-websites",
+      "booking-business-management-systems"
+    ],
+    "projectUrl": "https://westsydneylions.com.au/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg"
+    ]
+  },
+  {
+    "slug": "mydoctor-plus",
+    "name": "MyDoctor+",
+    "clientType": "Healthcare technology",
+    "category": "Web",
+    "platform": "Web portal",
+    "summary": "A patient portal that connects patients with doctors and helps them manage appointments online.",
+    "challenge": "Patients needed a simpler, central way to reach healthcare providers and manage their care.",
+    "solution": "We built a secure patient portal with appointment management, a patient dashboard and communication features, responsive on every device.",
+    "features": [
+      {
+        "title": "Patient dashboard",
+        "text": "One place for each patient's healthcare activity."
+      },
+      {
+        "title": "Appointment management",
+        "text": "Book and manage appointments online."
+      },
+      {
+        "title": "Secure sign-in",
+        "text": "Protected access to patient information."
+      },
+      {
+        "title": "Provider communication",
+        "text": "Patients contact healthcare providers directly."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Web portal",
+      "Authentication",
+      "Responsive design"
+    ],
+    "stack": [
+      "Laravel",
+      "MySQL",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "services": [
+      "web-applications-websites",
+      "booking-business-management-systems"
+    ],
+    "projectUrl": "https://mydoctorweb.mydoctorplus.it/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg"
+    ]
+  },
+  {
+    "slug": "career-institute-pakistan",
+    "name": "Career Institute Pakistan",
+    "clientType": "Training institute",
+    "category": "Web",
+    "platform": "Website and portal",
+    "summary": "An education portal for a professional training institute, with courses, online admissions and certifications.",
+    "challenge": "Students needed easy access to courses, admissions, certifications and career guidance, and the institute wanted a stronger online presence.",
+    "solution": "We built an education website with course management, an online admission portal, a student information portal, and events and news.",
+    "features": [
+      {
+        "title": "Course catalogue",
+        "text": "Detailed information on every course."
+      },
+      {
+        "title": "Online admissions",
+        "text": "Students apply online."
+      },
+      {
+        "title": "Student portal",
+        "text": "Student information in one place."
+      },
+      {
+        "title": "Events and news",
+        "text": "Keep students informed about events and updates."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Website development",
+      "Admission portal",
+      "SEO setup"
+    ],
+    "stack": [
+      "Laravel",
+      "MySQL",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://career.edu.pk/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg"
+    ]
+  }
+]
