@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         );
 
         $this->call(SiteContentSeeder::class);
+        $this->call(ProblemFixContentSeeder::class);
         $this->call(PortfolioSeeder::class);
     }
 }

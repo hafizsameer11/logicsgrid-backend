@@ -1,0 +1,59 @@
+{
+  "services": {
+    "saas-mvp-development": [
+      { "problem": "Your feature list keeps growing and nothing ships", "fix": "A discovery sprint that fixes the smallest version worth launching" },
+      { "problem": "Getting to your first paying users takes too long", "fix": "A fixed-scope first release with progress you can test every week" },
+      { "problem": "The code breaks as soon as real users arrive", "fix": "Clean architecture, code reviews and automated deployment from day one" },
+      { "problem": "Billing, roles and analytics are left for later", "fix": "Subscriptions, permissions and product analytics in the first release" }
+    ],
+    "web-applications-websites": [
+      { "problem": "Your website looks dated and brings few enquiries", "fix": "A fast, modern site with clear calls to action, forms and WhatsApp" },
+      { "problem": "Daily work is spread across spreadsheets and chats", "fix": "A web portal with the forms, records and dashboards your team needs" },
+      { "problem": "Payments, email and your CRM do not talk to each other", "fix": "Integrations that connect payments, email, CRM and accounting" },
+      { "problem": "Only a developer can update your content", "fix": "An admin panel so your team edits pages, products and posts" }
+    ],
+    "mobile-app-development": [
+      { "problem": "Separate iOS and Android builds double the cost", "fix": "One React Native or Flutter codebase for both stores" },
+      { "problem": "Your app crashes or feels slow on real phones", "fix": "Testing on real devices and crash monitoring after every release" },
+      { "problem": "There is no back end or admin to run the app", "fix": "APIs and an admin panel built alongside the app, not after it" },
+      { "problem": "Store rejections keep delaying your launch", "fix": "Listings, policies and builds prepared to store rules, review handled" }
+    ],
+    "booking-business-management-systems": [
+      { "problem": "Bookings arrive by phone calls and WhatsApp", "fix": "Online booking with live availability, linked to your calendar" },
+      { "problem": "No-shows and missed payments cost you every week", "fix": "Deposits, online payments and automatic reminders on WhatsApp" },
+      { "problem": "Customer records are scattered across tools", "fix": "One customer database with history, notes, packages and invoices" },
+      { "problem": "You cannot see revenue across all your branches", "fix": "An owner dashboard with bookings, revenue and staff by branch" }
+    ],
+    "ai-integration-automation": [
+      { "problem": "Your team loses hours to repetitive manual tasks", "fix": "AI agents and workflows that carry out the steps across your tools" },
+      { "problem": "Customers wait too long for answers to common questions", "fix": "An assistant trained on your documents, with hand-off to a person" },
+      { "problem": "Knowledge is scattered across drives, docs and chats", "fix": "A searchable knowledge base anyone can ask in plain language" },
+      { "problem": "Important data is trapped in PDFs and emails", "fix": "Document processing that extracts fields into your database or CRM" },
+      { "problem": "AI experiments never make it into production", "fix": "Scoped use cases, testing, guardrails, cost limits and monitoring" }
+    ],
+    "white-label-development": [
+      { "problem": "You turn down projects your team cannot build", "fix": "A development team you can sell under your brand, without hiring" },
+      { "problem": "Freelancers miss deadlines and go quiet", "fix": "A managed team with a project lead, weekly updates and timelines" },
+      { "problem": "Hiring developers is slow and expensive", "fix": "Capacity per project or by the month, sized to your pipeline" },
+      { "problem": "Poor delivery quality puts your reputation at risk", "fix": "Code reviews, testing and documentation on every delivery" }
+    ]
+  },
+  "pages": {
+    "startups": [
+      { "problem": "You are not technical and do not know who to trust", "fix": "Plain-language decisions, written scopes and weekly updates" },
+      { "problem": "Quotes vary wildly and nobody explains why", "fix": "A discovery sprint that turns your idea into a clear, priced scope" },
+      { "problem": "Freelancers disappear halfway through the build", "fix": "One accountable team with a project lead from start to support" },
+      { "problem": "You worry about losing control of your product", "fix": "Your accounts, code and designs, handed over to you in full" }
+    ],
+    "agencies": "white-label-development"
+  },
+  "steps": {
+    "startups": [
+      { "title": "Discovery sprint", "text": "Workshops on your users and the core problem, ending with the smallest version worth launching.", "output": "Scope, user flows and timeline" },
+      { "title": "Design", "text": "Wireframes and UI designs for the key screens, turned into a clickable prototype to test.", "output": "Approved designs and prototype" },
+      { "title": "Build", "text": "Development in short sprints, with a weekly update and a test link you can try yourself.", "output": "Working software every week" },
+      { "title": "Launch", "text": "Hosting, domain, SSL, payments, analytics and store releases set up and handed over.", "output": "A live product in your accounts" },
+      { "title": "Iterate", "text": "We watch how real users behave, gather feedback and plan the next release with you.", "output": "A roadmap based on real usage" }
+    ]
+  }
+}
