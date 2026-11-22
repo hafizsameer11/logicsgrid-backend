@@ -1,55 +1,711 @@
 [
   {
-    "slug": "troosolar",
-    "name": "Troosolar",
-    "clientType": "Solar energy company",
-    "category": "Web platforms",
-    "platform": "Web and mobile platform",
-    "summary": "A smart solar energy platform for monitoring solar systems, tracking energy generation and managing installations.",
-    "challenge": "Solar owners needed a simpler way to manage their systems, use their energy better and rely less on traditional power, without juggling spreadsheets and installer reports.",
-    "solution": "We built a complete solar management platform where users monitor panel performance, track energy generation and manage system data through a clean, easy interface.",
+    "slug": "gympaddy",
+    "name": "GymPaddy",
+    "clientType": "Fitness community",
+    "category": "Mobile apps",
+    "platform": "Android app and website",
+    "summary": "A social fitness app combining community, live sessions and creator monetisation.",
+    "challenge": "People struggle to stay consistent with fitness on their own. The goal was a community that keeps them motivated and gives trainers a way to earn.",
+    "solution": "We built a social fitness ecosystem with user profiles, live streaming, community interaction and a digital marketplace where trainers and creators monetise their content.",
     "features": [
       {
-        "title": "Performance monitoring",
-        "text": "See how each solar system is performing at a glance."
+        "title": "Social feed and profiles",
+        "text": "Users connect and share progress with people who have the same goals."
       },
       {
-        "title": "Energy tracking",
-        "text": "Track energy generation over time to make better decisions."
+        "title": "Live streaming",
+        "text": "Live sessions that members join and take part in."
       },
       {
-        "title": "Installation management",
-        "text": "Keep system and installation data in one place."
+        "title": "Marketplace",
+        "text": "A digital marketplace for fitness products and content."
       },
       {
-        "title": "Solar store",
-        "text": "Browse and buy solar bundles and products online."
+        "title": "Creator monetisation",
+        "text": "Trainers and creators earn from their content."
       }
     ],
     "scope": [
       "UI and UX design",
-      "Web application",
       "Mobile app",
+      "Website",
       "Backend and API",
+      "App store release"
+    ],
+    "stack": [
+      "React Native",
+      "Laravel",
+      "MySQL",
+      "REST API",
+      "Firebase",
+      "WebSockets"
+    ],
+    "services": [
+      "mobile-app-development",
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://gympaddy.net/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg"
+    ]
+  },
+  {
+    "slug": "mybeauty-plus",
+    "name": "MyBeauty+",
+    "clientType": "Beauty and salon marketplace",
+    "category": "Marketplaces",
+    "platform": "Web marketplace, mobile-first",
+    "summary": "A multi-vendor marketplace where customers book salons in Calabria and buy the products professionals use.",
+    "challenge": "Customers booked salons by phone and had no single place to compare them, and salons had no simple way to take bookings, payments and product orders online.",
+    "solution": "We built a multi-vendor platform with salon discovery and online booking for customers, a shop for professional products, and tools for salons to run bookings, payments, products and clients.",
+    "features": [
+      {
+        "title": "Salon discovery",
+        "text": "Browse salons by city and category, from hair and barbers to nails, aesthetics and spa, with a map view."
+      },
+      {
+        "title": "Online booking",
+        "text": "Pick a service, a time and a staff member, then book in a few taps without a phone call."
+      },
+      {
+        "title": "Product shop",
+        "text": "Products sold directly by salons, with options, filters, shipping or in-salon pickup."
+      },
+      {
+        "title": "Tools for salons",
+        "text": "A 24/7 online agenda, e-commerce, deposits and payments, verified reviews, a mini CRM and analytics."
+      }
+    ],
+    "scope": [
+      "Marketplace architecture",
+      "Customer booking flow",
+      "Salon pages and product shop",
+      "Salon owner tools",
+      "Italian and English versions",
       "Deployment"
     ],
     "stack": [
       "React",
-      "React Native",
-      "Laravel",
-      "REST API",
-      "MySQL"
+      "Vite",
+      "Stripe",
+      "Nginx"
+    ],
+    "services": [
+      "booking-business-management-systems",
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://mybeutyplus.it/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg"
+    ]
+  },
+  {
+    "slug": "facilities-hospitality-erp",
+    "name": "ERP for a facilities and hospitality group",
+    "clientType": "Facilities management and hospitality group (client under NDA)",
+    "category": "ERP & CRM",
+    "platform": "Web ERP",
+    "summary": "A custom ERP that runs procurement, inventory, projects, HR, payroll and finance for a facilities management and hospitality group.",
+    "challenge": "The group ran facilities management, catering and hospitality across many sites, with requisitions, purchasing, vendors, inventory, projects, HR and finance kept in separate spreadsheets and tools.",
+    "solution": "We built one ERP on a single database covering every part of the business, with role-based access, approval workflows, document attachments, notifications and a full audit trail in every module.",
+    "features": [
+      {
+        "title": "Procurement",
+        "text": "Requisitions, purchase orders, vendor management, sourcing and RFQs with multi-step approvals."
+      },
+      {
+        "title": "Inventory and projects",
+        "text": "Stock across sites and project budgets tracked against actual costs."
+      },
+      {
+        "title": "HR and payroll",
+        "text": "Employee records, leave, onboarding and monthly payroll runs."
+      },
+      {
+        "title": "Finance and reporting",
+        "text": "Finance, sales and an executive dashboard across every division."
+      }
+    ],
+    "scope": [
+      "Business process mapping",
+      "ERP architecture",
+      "Module development",
+      "Roles, approvals and audit trail",
+      "Data migration",
+      "Deployment"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Redis"
     ],
     "services": [
       "web-applications-websites",
-      "mobile-app-development"
+      "booking-business-management-systems"
     ],
-    "projectUrl": "https://app.troosolar.io/",
+    "projectUrl": null,
     "cover": "01.jpg",
     "gallery": [
       "01.jpg",
       "02.jpg",
       "03.jpg"
+    ]
+  },
+  {
+    "slug": "tercescrow",
+    "name": "Tercescrow",
+    "clientType": "Fintech company",
+    "category": "Mobile apps",
+    "platform": "iOS, Android and web",
+    "summary": "A fintech platform for trading gift cards, managing crypto and paying bills securely.",
+    "challenge": "Users wanted one safe, fast place to handle gift cards, crypto and payments instead of several separate services.",
+    "solution": "We built mobile apps and a web platform with gift card trading, crypto management, secure payment processing and real-time transaction tracking.",
+    "features": [
+      {
+        "title": "Gift card trading",
+        "text": "Convert gift cards to cash quickly."
+      },
+      {
+        "title": "Crypto management",
+        "text": "Buy, sell and manage crypto assets."
+      },
+      {
+        "title": "Bill payments",
+        "text": "Pay bills from the same app."
+      },
+      {
+        "title": "Transaction tracking",
+        "text": "Follow every transaction in real time."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "iOS and Android apps",
+      "Web platform",
+      "Backend and API",
+      "App store release"
+    ],
+    "stack": [
+      "React Native",
+      "Laravel",
+      "MySQL",
+      "REST API",
+      "Firebase",
+      "Blockchain APIs"
+    ],
+    "services": [
+      "mobile-app-development",
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://tercescrow.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg"
+    ]
+  },
+  {
+    "slug": "vista-express",
+    "name": "Vista Express",
+    "clientType": "Optical marketplace",
+    "category": "Marketplaces",
+    "platform": "Buyer marketplace and seller portal",
+    "summary": "A multi-vendor marketplace built entirely around optical products, with a storefront for buyers and a portal for sellers.",
+    "challenge": "Optical retailers needed one place to sell eyewear and lens products online, and shoppers needed a store made for optical items rather than a general marketplace.",
+    "solution": "We built a multi-vendor marketplace with a buyer storefront for glasses, lenses and eye care, and a separate seller portal where optical stores manage products, orders and customers.",
+    "features": [
+      {
+        "title": "Optical catalogue",
+        "text": "Eyeglasses, sunglasses, contact lenses, eye hygiene and accessories, each with its own category."
+      },
+      {
+        "title": "Multi-vendor stores",
+        "text": "Independent optical retailers sell side by side, with featured stores and top sellers."
+      },
+      {
+        "title": "Seller portal",
+        "text": "A dedicated workspace for sellers to manage products, orders, customers and store settings."
+      },
+      {
+        "title": "Search and filtering",
+        "text": "Search across glasses, lenses and brands, with product colours and options on each listing."
+      }
+    ],
+    "scope": [
+      "Marketplace architecture",
+      "Buyer storefront",
+      "Seller portal",
+      "Mobile-responsive design",
+      "Deployment"
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "Nginx"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://buyer.vistaexpress.it/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg"
+    ]
+  },
+  {
+    "slug": "ai-lead-management-crm",
+    "name": "AI lead management CRM",
+    "clientType": "Sales and outreach team (client under NDA)",
+    "category": "ERP & CRM",
+    "platform": "Web CRM",
+    "summary": "A CRM for managing leads, with AI that writes outreach emails and sorts and drafts replies.",
+    "challenge": "The team managed leads across spreadsheets and inboxes. Writing personalised emails, following up on time and keeping track of replies took most of their day.",
+    "solution": "We built a lead management CRM with a pipeline, email sequences and a shared inbox. AI writes personalised emails, sorts incoming replies by intent and drafts answers for the team to approve before sending.",
+    "features": [
+      {
+        "title": "Lead pipeline",
+        "text": "Every lead from first contact to won, with owners, stages and next actions."
+      },
+      {
+        "title": "AI email writing",
+        "text": "Personalised outreach emails and follow-ups generated for each lead."
+      },
+      {
+        "title": "Reply management",
+        "text": "Incoming replies sorted by intent, with AI-drafted answers to approve or edit."
+      },
+      {
+        "title": "Sequences",
+        "text": "Multi-step campaigns that stop automatically when a lead replies."
+      }
+    ],
+    "scope": [
+      "CRM design",
+      "Lead pipeline and records",
+      "Email sending and inbox sync",
+      "AI email writing and reply handling",
+      "Deployment"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "services": [
+      "ai-integration-automation",
+      "web-applications-websites"
+    ],
+    "projectUrl": null,
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "tg-calabria-report",
+    "name": "TG Calabria Report",
+    "clientType": "Regional news publisher",
+    "category": "Web platforms",
+    "platform": "News website, mobile-first",
+    "summary": "A digital news platform for Calabria, with live regional news plus weather, sport, transport and reader services.",
+    "challenge": "The publisher needed a fast, modern news site that keeps readers coming back every day, not just a list of articles, with space for local advertisers.",
+    "solution": "We built a news platform with categories, breaking news and trending stories, and added daily-use tools such as city weather, sport results, transport information and a horoscope, plus reader accounts and a newsletter.",
+    "features": [
+      {
+        "title": "News and categories",
+        "text": "Headlines, featured stories, breaking news and sections for politics, sport, business, culture and more."
+      },
+      {
+        "title": "Article pages",
+        "text": "Clean reading pages with share buttons, trending stories and related news."
+      },
+      {
+        "title": "Daily services",
+        "text": "Weather for every Calabrian city, football standings and fixtures, transport information and a horoscope."
+      },
+      {
+        "title": "Reader accounts",
+        "text": "Sign-in, bookmarks, a newsletter and a form for readers to report content."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "News platform development",
+      "Third-party data integrations",
+      "Advertising placements",
+      "Italian and English versions",
+      "Deployment"
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "Nginx"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://tgcalabriareport.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg"
+    ]
+  },
+  {
+    "slug": "earlybaze",
+    "name": "Earlybaze",
+    "clientType": "Crypto exchange",
+    "category": "Mobile apps",
+    "platform": "iOS, Android and web",
+    "summary": "A crypto exchange app that makes buying, selling and swapping crypto simple for users in Nigeria and beyond.",
+    "challenge": "Traditional exchanges felt complex to new users. The aim was a secure, fast and beginner-friendly way to trade, with a brand people trust.",
+    "solution": "We built a responsive exchange with a mobile-first design, trading, wallet integration, transaction tracking, secure sign-in and a smooth onboarding flow, plus a landing page that builds trust.",
+    "features": [
+      {
+        "title": "Buy, sell and swap",
+        "text": "Trade cryptocurrencies from one simple screen."
+      },
+      {
+        "title": "Wallet management",
+        "text": "Manage digital assets with real-time balance updates."
+      },
+      {
+        "title": "Secure onboarding",
+        "text": "Secure authentication and a guided sign-up."
+      },
+      {
+        "title": "Landing page",
+        "text": "A fast, conversion-focused site with app store links."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "iOS and Android apps",
+      "Landing page",
+      "Backend and API",
+      "App store release"
+    ],
+    "stack": [
+      "Laravel",
+      "React Native",
+      "MySQL",
+      "REST API"
+    ],
+    "services": [
+      "mobile-app-development",
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://earlybazewallet.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg"
+    ]
+  },
+  {
+    "slug": "logistics-freight-erp",
+    "name": "Logistics ERP for freight, warehousing and customs",
+    "clientType": "Logistics company (client under NDA)",
+    "category": "ERP & CRM",
+    "platform": "Web ERP with client tracking links",
+    "summary": "One system that runs sea freight, warehousing, trucking and customs clearance, from quote to delivery.",
+    "challenge": "The company handled sea freight, warehousing, in-country trucking and customs clearance, but each service ran on its own tools and spreadsheets. One shipment touched four systems, and customers had no clear view of their cargo.",
+    "solution": "We built a single ERP with a shared shipment timeline: freight bookings and container tracking, warehouse inbound and outbound with bin locations, fleet dispatch, and customs documents with HS codes and duty calculation, plus live tracking links for customers.",
+    "features": [
+      {
+        "title": "Sea freight",
+        "text": "Bookings, container tracking and a shared timeline for every shipment."
+      },
+      {
+        "title": "Warehousing",
+        "text": "Inbound and outbound movements with bin locations and occupancy."
+      },
+      {
+        "title": "Trucking",
+        "text": "Fleet dispatch and trucking jobs for in-country delivery."
+      },
+      {
+        "title": "Customs clearance",
+        "text": "Entries, documents, HS codes and duty calculation."
+      }
+    ],
+    "scope": [
+      "Process mapping",
+      "ERP architecture",
+      "Freight, warehouse, trucking and customs modules",
+      "Role-based access",
+      "Customer tracking links",
+      "Deployment"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Mapbox",
+      "WebSockets"
+    ],
+    "services": [
+      "web-applications-websites",
+      "booking-business-management-systems"
+    ],
+    "projectUrl": null,
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "retail-pos-inventory",
+    "name": "Point of sale with one inventory across store, website and app",
+    "clientType": "Fashion and sneaker retailer (client under NDA)",
+    "category": "ERP & CRM",
+    "platform": "In-store POS, web and app sync",
+    "summary": "A custom point of sale that shares one live inventory with the retailer's website and mobile app.",
+    "challenge": "The retailer sold limited stock through a website, an app and a physical store. Stock counts drifted between channels, items were oversold, and the in-store till could not see online stock.",
+    "solution": "We built a POS on the same database as the website and app, synced in real time. It works with barcode scanners, thermal printers and cash drawers, and handles discounts, loyalty, card, cash, transfer and QR payments, and printed or emailed receipts.",
+    "features": [
+      {
+        "title": "Fast checkout",
+        "text": "Scan, apply discounts and loyalty, take any payment method and print or email the receipt."
+      },
+      {
+        "title": "One inventory",
+        "text": "Store, website and app share one live stock count."
+      },
+      {
+        "title": "Hardware integration",
+        "text": "Barcode scanners, thermal receipt printers and cash drawers."
+      },
+      {
+        "title": "Sales dashboard",
+        "text": "Daily revenue, top products and low-stock alerts for head office."
+      }
+    ],
+    "scope": [
+      "POS design",
+      "Inventory sync across channels",
+      "Hardware integration",
+      "Loyalty and discounts",
+      "Reporting dashboard"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "services": [
+      "web-applications-websites",
+      "booking-business-management-systems"
+    ],
+    "projectUrl": null,
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "textile-manufacturing-erp",
+    "name": "ERP for textile manufacturers",
+    "clientType": "Textile companies (clients under NDA)",
+    "category": "ERP & CRM",
+    "platform": "Web ERP",
+    "summary": "An ERP built for textile companies, connecting sales orders, production, inventory and finance.",
+    "challenge": "Textile manufacturers needed to follow each order from yarn to finished fabric, across several production stages and warehouses, without relying on paper job cards and spreadsheets.",
+    "solution": "We built an ERP for textile companies that links sales orders to production orders, tracks materials and lots through each stage, and gives management one view of production, stock and orders.",
+    "features": [
+      {
+        "title": "Production orders",
+        "text": "Orders routed through each production stage, with materials issued and tracked."
+      },
+      {
+        "title": "Inventory and lots",
+        "text": "Yarn, greige and finished fabric tracked by lot and warehouse."
+      },
+      {
+        "title": "Sales and purchasing",
+        "text": "Sales orders linked to production, with purchasing for materials."
+      },
+      {
+        "title": "Management dashboard",
+        "text": "Production, stock and order status in one place."
+      }
+    ],
+    "scope": [
+      "Process mapping",
+      "ERP architecture",
+      "Production, inventory and order modules",
+      "Reporting",
+      "Deployment"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "projectUrl": null,
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "billspro",
+    "name": "BillsPro",
+    "clientType": "Payments app",
+    "category": "Mobile apps",
+    "platform": "iOS and Android",
+    "summary": "A mobile app bringing bill payments, a wallet and virtual cards into one product.",
+    "challenge": "Combine several payment actions in one app without overwhelming customers.",
+    "solution": "We built a mobile-first app with clear transaction flows, status visibility and admin controls behind it.",
+    "features": [
+      {
+        "title": "Digital wallet",
+        "text": "Balance, top-ups and transaction history."
+      },
+      {
+        "title": "Bill payments",
+        "text": "Guided flows for paying everyday bills."
+      },
+      {
+        "title": "Virtual cards",
+        "text": "Card creation and management inside the app."
+      },
+      {
+        "title": "Transaction monitoring",
+        "text": "Admin views to track and support transactions."
+      }
+    ],
+    "scope": [
+      "Mobile UI and UX design",
+      "Cross-platform app build",
+      "Back-end APIs",
+      "Admin panel",
+      "Store publishing"
+    ],
+    "services": [
+      "mobile-app-development"
+    ],
+    "stack": [
+      "React Native",
+      "Node.js",
+      "PostgreSQL",
+      "Payment APIs"
+    ],
+    "projectUrl": "https://billspro.com.ng/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg"
+    ]
+  },
+  {
+    "slug": "kokolet-luxury",
+    "name": "Kokolet Luxury",
+    "clientType": "Luxury retail brand",
+    "category": "E-commerce",
+    "platform": "Web store",
+    "summary": "A premium online store connecting product discovery, checkout and repeat purchases.",
+    "challenge": "Create an online flagship that felt as considered as the products, while keeping browsing and repeat purchasing simple.",
+    "solution": "We designed an editorial storefront and connected the catalogue, checkout and order operations behind it.",
+    "features": [
+      {
+        "title": "Editorial catalogue",
+        "text": "Collections and product pages designed to present products the way the brand does in store."
+      },
+      {
+        "title": "Secure checkout",
+        "text": "A short checkout flow with online payments."
+      },
+      {
+        "title": "Loyalty journey",
+        "text": "Account features that encourage customers to come back."
+      },
+      {
+        "title": "Order operations",
+        "text": "Admin tools to manage orders, stock and fulfilment."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "Storefront development",
+      "Payments integration",
+      "Admin and order management",
+      "Deployment"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "stack": [
+      "React",
+      "Commerce API",
+      "Payments",
+      "Analytics"
+    ],
+    "projectUrl": "https://kokoletluxury.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg"
     ]
   },
   {
@@ -98,57 +754,6 @@
       "web-applications-websites"
     ],
     "projectUrl": "https://colalamall.com/",
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg"
-    ]
-  },
-  {
-    "slug": "skillverse",
-    "name": "SkillVerse",
-    "clientType": "Online education",
-    "category": "Web platforms",
-    "platform": "Web platform",
-    "summary": "An online learning platform for practical skills, internships and job preparation.",
-    "challenge": "Students needed practical, industry-ready skills and a clear route from learning to internships and jobs.",
-    "solution": "We built a complete e-learning system with course management, enrolment, progress tracking and content delivery, plus internship listings and career support tools.",
-    "features": [
-      {
-        "title": "Course management",
-        "text": "Create, organise and deliver courses and training programmes."
-      },
-      {
-        "title": "Enrolment and progress",
-        "text": "Students enrol online and track their progress."
-      },
-      {
-        "title": "Internships",
-        "text": "Internship listings connected to the learning journey."
-      },
-      {
-        "title": "Career support",
-        "text": "Job preparation resources and expert guidance."
-      }
-    ],
-    "scope": [
-      "UI and UX design",
-      "Learning platform",
-      "Admin panel",
-      "Deployment"
-    ],
-    "stack": [
-      "Laravel",
-      "MySQL",
-      "REST API",
-      "Bootstrap",
-      "JavaScript"
-    ],
-    "services": [
-      "web-applications-websites"
-    ],
-    "projectUrl": "https://skillverse.com.pk/",
     "cover": "01.jpg",
     "gallery": [
       "01.jpg",
@@ -213,173 +818,159 @@
     ]
   },
   {
-    "slug": "gympaddy",
-    "name": "GymPaddy",
-    "clientType": "Fitness community",
-    "category": "Mobile apps",
-    "platform": "Android app and website",
-    "summary": "A social fitness app combining community, live sessions and creator monetisation.",
-    "challenge": "People struggle to stay consistent with fitness on their own. The goal was a community that keeps them motivated and gives trainers a way to earn.",
-    "solution": "We built a social fitness ecosystem with user profiles, live streaming, community interaction and a digital marketplace where trainers and creators monetise their content.",
+    "slug": "troosolar",
+    "name": "Troosolar",
+    "clientType": "Solar energy company",
+    "category": "Web platforms",
+    "platform": "Web and mobile platform",
+    "summary": "A smart solar energy platform for monitoring solar systems, tracking energy generation and managing installations.",
+    "challenge": "Solar owners needed a simpler way to manage their systems, use their energy better and rely less on traditional power, without juggling spreadsheets and installer reports.",
+    "solution": "We built a complete solar management platform where users monitor panel performance, track energy generation and manage system data through a clean, easy interface.",
     "features": [
       {
-        "title": "Social feed and profiles",
-        "text": "Users connect and share progress with people who have the same goals."
+        "title": "Performance monitoring",
+        "text": "See how each solar system is performing at a glance."
       },
       {
-        "title": "Live streaming",
-        "text": "Live sessions that members join and take part in."
+        "title": "Energy tracking",
+        "text": "Track energy generation over time to make better decisions."
       },
       {
-        "title": "Marketplace",
-        "text": "A digital marketplace for fitness products and content."
+        "title": "Installation management",
+        "text": "Keep system and installation data in one place."
       },
       {
-        "title": "Creator monetisation",
-        "text": "Trainers and creators earn from their content."
+        "title": "Solar store",
+        "text": "Browse and buy solar bundles and products online."
       }
     ],
     "scope": [
       "UI and UX design",
+      "Web application",
       "Mobile app",
-      "Website",
       "Backend and API",
-      "App store release"
+      "Deployment"
     ],
     "stack": [
+      "React",
       "React Native",
       "Laravel",
-      "MySQL",
       "REST API",
-      "Firebase",
-      "WebSockets"
+      "MySQL"
     ],
     "services": [
-      "mobile-app-development",
-      "web-applications-websites"
+      "web-applications-websites",
+      "mobile-app-development"
     ],
-    "projectUrl": "https://gympaddy.net/",
+    "projectUrl": "https://app.troosolar.io/",
     "cover": "01.jpg",
     "gallery": [
       "01.jpg",
       "02.jpg",
-      "03.jpg",
-      "04.jpg",
-      "05.jpg",
-      "06.jpg",
-      "07.jpg"
+      "03.jpg"
     ]
   },
   {
-    "slug": "tercescrow",
-    "name": "Tercescrow",
-    "clientType": "Fintech company",
-    "category": "Mobile apps",
-    "platform": "iOS, Android and web",
-    "summary": "A fintech platform for trading gift cards, managing crypto and paying bills securely.",
-    "challenge": "Users wanted one safe, fast place to handle gift cards, crypto and payments instead of several separate services.",
-    "solution": "We built mobile apps and a web platform with gift card trading, crypto management, secure payment processing and real-time transaction tracking.",
+    "slug": "skillverse",
+    "name": "SkillVerse",
+    "clientType": "Online education",
+    "category": "Web platforms",
+    "platform": "Web platform",
+    "summary": "An online learning platform for practical skills, internships and job preparation.",
+    "challenge": "Students needed practical, industry-ready skills and a clear route from learning to internships and jobs.",
+    "solution": "We built a complete e-learning system with course management, enrolment, progress tracking and content delivery, plus internship listings and career support tools.",
     "features": [
       {
-        "title": "Gift card trading",
-        "text": "Convert gift cards to cash quickly."
+        "title": "Course management",
+        "text": "Create, organise and deliver courses and training programmes."
       },
       {
-        "title": "Crypto management",
-        "text": "Buy, sell and manage crypto assets."
+        "title": "Enrolment and progress",
+        "text": "Students enrol online and track their progress."
       },
       {
-        "title": "Bill payments",
-        "text": "Pay bills from the same app."
+        "title": "Internships",
+        "text": "Internship listings connected to the learning journey."
       },
       {
-        "title": "Transaction tracking",
-        "text": "Follow every transaction in real time."
+        "title": "Career support",
+        "text": "Job preparation resources and expert guidance."
       }
     ],
     "scope": [
       "UI and UX design",
-      "iOS and Android apps",
-      "Web platform",
-      "Backend and API",
-      "App store release"
+      "Learning platform",
+      "Admin panel",
+      "Deployment"
     ],
     "stack": [
-      "React Native",
       "Laravel",
       "MySQL",
       "REST API",
-      "Firebase",
-      "Blockchain APIs"
+      "Bootstrap",
+      "JavaScript"
     ],
     "services": [
-      "mobile-app-development",
       "web-applications-websites"
     ],
-    "projectUrl": "https://tercescrow.com/",
+    "projectUrl": "https://skillverse.com.pk/",
     "cover": "01.jpg",
     "gallery": [
       "01.jpg",
       "02.jpg",
-      "03.jpg",
-      "04.jpg",
-      "05.jpg",
-      "06.jpg"
+      "03.jpg"
     ]
   },
   {
-    "slug": "earlybaze",
-    "name": "Earlybaze",
-    "clientType": "Crypto exchange",
-    "category": "Mobile apps",
-    "platform": "iOS, Android and web",
-    "summary": "A crypto exchange app that makes buying, selling and swapping crypto simple for users in Nigeria and beyond.",
-    "challenge": "Traditional exchanges felt complex to new users. The aim was a secure, fast and beginner-friendly way to trade, with a brand people trust.",
-    "solution": "We built a responsive exchange with a mobile-first design, trading, wallet integration, transaction tracking, secure sign-in and a smooth onboarding flow, plus a landing page that builds trust.",
+    "slug": "mydoctor-plus",
+    "name": "MyDoctor+",
+    "clientType": "Healthcare technology",
+    "category": "Web platforms",
+    "platform": "Web portal",
+    "summary": "A patient portal that connects patients with doctors and helps them manage appointments online.",
+    "challenge": "Patients needed a simpler, central way to reach healthcare providers and manage their care.",
+    "solution": "We built a secure patient portal with appointment management, a patient dashboard and communication features, responsive on every device.",
     "features": [
       {
-        "title": "Buy, sell and swap",
-        "text": "Trade cryptocurrencies from one simple screen."
+        "title": "Patient dashboard",
+        "text": "One place for each patient's healthcare activity."
       },
       {
-        "title": "Wallet management",
-        "text": "Manage digital assets with real-time balance updates."
+        "title": "Appointment management",
+        "text": "Book and manage appointments online."
       },
       {
-        "title": "Secure onboarding",
-        "text": "Secure authentication and a guided sign-up."
+        "title": "Secure sign-in",
+        "text": "Protected access to patient information."
       },
       {
-        "title": "Landing page",
-        "text": "A fast, conversion-focused site with app store links."
+        "title": "Provider communication",
+        "text": "Patients contact healthcare providers directly."
       }
     ],
     "scope": [
       "UI and UX design",
-      "iOS and Android apps",
-      "Landing page",
-      "Backend and API",
-      "App store release"
+      "Web portal",
+      "Authentication",
+      "Responsive design"
     ],
     "stack": [
       "Laravel",
-      "React Native",
       "MySQL",
-      "REST API"
+      "JavaScript",
+      "Bootstrap"
     ],
     "services": [
-      "mobile-app-development",
-      "web-applications-websites"
+      "web-applications-websites",
+      "booking-business-management-systems"
     ],
-    "projectUrl": "https://earlybazewallet.com/",
+    "projectUrl": "https://mydoctorweb.mydoctorplus.it/",
     "cover": "01.jpg",
     "gallery": [
       "01.jpg",
       "02.jpg",
       "03.jpg",
-      "04.jpg",
-      "05.jpg",
-      "06.jpg"
+      "04.jpg"
     ]
   },
   {
@@ -538,58 +1129,6 @@
     ]
   },
   {
-    "slug": "mydoctor-plus",
-    "name": "MyDoctor+",
-    "clientType": "Healthcare technology",
-    "category": "Web platforms",
-    "platform": "Web portal",
-    "summary": "A patient portal that connects patients with doctors and helps them manage appointments online.",
-    "challenge": "Patients needed a simpler, central way to reach healthcare providers and manage their care.",
-    "solution": "We built a secure patient portal with appointment management, a patient dashboard and communication features, responsive on every device.",
-    "features": [
-      {
-        "title": "Patient dashboard",
-        "text": "One place for each patient's healthcare activity."
-      },
-      {
-        "title": "Appointment management",
-        "text": "Book and manage appointments online."
-      },
-      {
-        "title": "Secure sign-in",
-        "text": "Protected access to patient information."
-      },
-      {
-        "title": "Provider communication",
-        "text": "Patients contact healthcare providers directly."
-      }
-    ],
-    "scope": [
-      "UI and UX design",
-      "Web portal",
-      "Authentication",
-      "Responsive design"
-    ],
-    "stack": [
-      "Laravel",
-      "MySQL",
-      "JavaScript",
-      "Bootstrap"
-    ],
-    "services": [
-      "web-applications-websites",
-      "booking-business-management-systems"
-    ],
-    "projectUrl": "https://mydoctorweb.mydoctorplus.it/",
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg",
-      "04.jpg"
-    ]
-  },
-  {
     "slug": "career-institute-pakistan",
     "name": "Career Institute Pakistan",
     "clientType": "Training institute",
@@ -632,545 +1171,6 @@
       "web-applications-websites"
     ],
     "projectUrl": "https://career.edu.pk/",
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg",
-      "04.jpg"
-    ]
-  },
-  {
-    "slug": "vista-express",
-    "name": "Vista Express",
-    "clientType": "Optical marketplace",
-    "category": "Marketplaces",
-    "platform": "Buyer marketplace and seller portal",
-    "summary": "A multi-vendor marketplace built entirely around optical products, with a storefront for buyers and a portal for sellers.",
-    "challenge": "Optical retailers needed one place to sell eyewear and lens products online, and shoppers needed a store made for optical items rather than a general marketplace.",
-    "solution": "We built a multi-vendor marketplace with a buyer storefront for glasses, lenses and eye care, and a separate seller portal where optical stores manage products, orders and customers.",
-    "features": [
-      {
-        "title": "Optical catalogue",
-        "text": "Eyeglasses, sunglasses, contact lenses, eye hygiene and accessories, each with its own category."
-      },
-      {
-        "title": "Multi-vendor stores",
-        "text": "Independent optical retailers sell side by side, with featured stores and top sellers."
-      },
-      {
-        "title": "Seller portal",
-        "text": "A dedicated workspace for sellers to manage products, orders, customers and store settings."
-      },
-      {
-        "title": "Search and filtering",
-        "text": "Search across glasses, lenses and brands, with product colours and options on each listing."
-      }
-    ],
-    "scope": [
-      "Marketplace architecture",
-      "Buyer storefront",
-      "Seller portal",
-      "Mobile-responsive design",
-      "Deployment"
-    ],
-    "stack": [
-      "Next.js",
-      "React",
-      "Nginx"
-    ],
-    "services": [
-      "web-applications-websites"
-    ],
-    "projectUrl": "https://buyer.vistaexpress.it/",
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg",
-      "04.jpg",
-      "05.jpg",
-      "06.jpg"
-    ]
-  },
-  {
-    "slug": "mybeauty-plus",
-    "name": "MyBeauty+",
-    "clientType": "Beauty and salon marketplace",
-    "category": "Marketplaces",
-    "platform": "Web marketplace, mobile-first",
-    "summary": "A multi-vendor marketplace where customers book salons in Calabria and buy the products professionals use.",
-    "challenge": "Customers booked salons by phone and had no single place to compare them, and salons had no simple way to take bookings, payments and product orders online.",
-    "solution": "We built a multi-vendor platform with salon discovery and online booking for customers, a shop for professional products, and tools for salons to run bookings, payments, products and clients.",
-    "features": [
-      {
-        "title": "Salon discovery",
-        "text": "Browse salons by city and category, from hair and barbers to nails, aesthetics and spa, with a map view."
-      },
-      {
-        "title": "Online booking",
-        "text": "Pick a service, a time and a staff member, then book in a few taps without a phone call."
-      },
-      {
-        "title": "Product shop",
-        "text": "Products sold directly by salons, with options, filters, shipping or in-salon pickup."
-      },
-      {
-        "title": "Tools for salons",
-        "text": "A 24/7 online agenda, e-commerce, deposits and payments, verified reviews, a mini CRM and analytics."
-      }
-    ],
-    "scope": [
-      "Marketplace architecture",
-      "Customer booking flow",
-      "Salon pages and product shop",
-      "Salon owner tools",
-      "Italian and English versions",
-      "Deployment"
-    ],
-    "stack": [
-      "React",
-      "Vite",
-      "Stripe",
-      "Nginx"
-    ],
-    "services": [
-      "booking-business-management-systems",
-      "web-applications-websites"
-    ],
-    "projectUrl": "https://mybeutyplus.it/",
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg",
-      "04.jpg",
-      "05.jpg",
-      "06.jpg",
-      "07.jpg",
-      "08.jpg",
-      "09.jpg",
-      "10.jpg",
-      "11.jpg",
-      "12.jpg"
-    ]
-  },
-  {
-    "slug": "tg-calabria-report",
-    "name": "TG Calabria Report",
-    "clientType": "Regional news publisher",
-    "category": "Web platforms",
-    "platform": "News website, mobile-first",
-    "summary": "A digital news platform for Calabria, with live regional news plus weather, sport, transport and reader services.",
-    "challenge": "The publisher needed a fast, modern news site that keeps readers coming back every day, not just a list of articles, with space for local advertisers.",
-    "solution": "We built a news platform with categories, breaking news and trending stories, and added daily-use tools such as city weather, sport results, transport information and a horoscope, plus reader accounts and a newsletter.",
-    "features": [
-      {
-        "title": "News and categories",
-        "text": "Headlines, featured stories, breaking news and sections for politics, sport, business, culture and more."
-      },
-      {
-        "title": "Article pages",
-        "text": "Clean reading pages with share buttons, trending stories and related news."
-      },
-      {
-        "title": "Daily services",
-        "text": "Weather for every Calabrian city, football standings and fixtures, transport information and a horoscope."
-      },
-      {
-        "title": "Reader accounts",
-        "text": "Sign-in, bookmarks, a newsletter and a form for readers to report content."
-      }
-    ],
-    "scope": [
-      "UI and UX design",
-      "News platform development",
-      "Third-party data integrations",
-      "Advertising placements",
-      "Italian and English versions",
-      "Deployment"
-    ],
-    "stack": [
-      "Next.js",
-      "React",
-      "Nginx"
-    ],
-    "services": [
-      "web-applications-websites"
-    ],
-    "projectUrl": "https://tgcalabriareport.com/",
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg",
-      "04.jpg",
-      "05.jpg",
-      "06.jpg",
-      "07.jpg",
-      "08.jpg"
-    ]
-  },
-  {
-    "slug": "facilities-hospitality-erp",
-    "name": "ERP for a facilities and hospitality group",
-    "clientType": "Facilities management and hospitality group (client under NDA)",
-    "category": "ERP & CRM",
-    "platform": "Web ERP",
-    "summary": "A custom ERP that runs procurement, inventory, projects, HR, payroll and finance for a facilities management and hospitality group.",
-    "challenge": "The group ran facilities management, catering and hospitality across many sites, with requisitions, purchasing, vendors, inventory, projects, HR and finance kept in separate spreadsheets and tools.",
-    "solution": "We built one ERP on a single database covering every part of the business, with role-based access, approval workflows, document attachments, notifications and a full audit trail in every module.",
-    "features": [
-      {
-        "title": "Procurement",
-        "text": "Requisitions, purchase orders, vendor management, sourcing and RFQs with multi-step approvals."
-      },
-      {
-        "title": "Inventory and projects",
-        "text": "Stock across sites and project budgets tracked against actual costs."
-      },
-      {
-        "title": "HR and payroll",
-        "text": "Employee records, leave, onboarding and monthly payroll runs."
-      },
-      {
-        "title": "Finance and reporting",
-        "text": "Finance, sales and an executive dashboard across every division."
-      }
-    ],
-    "scope": [
-      "Business process mapping",
-      "ERP architecture",
-      "Module development",
-      "Roles, approvals and audit trail",
-      "Data migration",
-      "Deployment"
-    ],
-    "stack": [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "PostgreSQL",
-      "Redis"
-    ],
-    "services": [
-      "web-applications-websites",
-      "booking-business-management-systems"
-    ],
-    "projectUrl": null,
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg"
-    ]
-  },
-  {
-    "slug": "logistics-freight-erp",
-    "name": "Logistics ERP for freight, warehousing and customs",
-    "clientType": "Logistics company (client under NDA)",
-    "category": "ERP & CRM",
-    "platform": "Web ERP with client tracking links",
-    "summary": "One system that runs sea freight, warehousing, trucking and customs clearance, from quote to delivery.",
-    "challenge": "The company handled sea freight, warehousing, in-country trucking and customs clearance, but each service ran on its own tools and spreadsheets. One shipment touched four systems, and customers had no clear view of their cargo.",
-    "solution": "We built a single ERP with a shared shipment timeline: freight bookings and container tracking, warehouse inbound and outbound with bin locations, fleet dispatch, and customs documents with HS codes and duty calculation, plus live tracking links for customers.",
-    "features": [
-      {
-        "title": "Sea freight",
-        "text": "Bookings, container tracking and a shared timeline for every shipment."
-      },
-      {
-        "title": "Warehousing",
-        "text": "Inbound and outbound movements with bin locations and occupancy."
-      },
-      {
-        "title": "Trucking",
-        "text": "Fleet dispatch and trucking jobs for in-country delivery."
-      },
-      {
-        "title": "Customs clearance",
-        "text": "Entries, documents, HS codes and duty calculation."
-      }
-    ],
-    "scope": [
-      "Process mapping",
-      "ERP architecture",
-      "Freight, warehouse, trucking and customs modules",
-      "Role-based access",
-      "Customer tracking links",
-      "Deployment"
-    ],
-    "stack": [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "PostgreSQL",
-      "Mapbox",
-      "WebSockets"
-    ],
-    "services": [
-      "web-applications-websites",
-      "booking-business-management-systems"
-    ],
-    "projectUrl": null,
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg"
-    ]
-  },
-  {
-    "slug": "retail-pos-inventory",
-    "name": "Point of sale with one inventory across store, website and app",
-    "clientType": "Fashion and sneaker retailer (client under NDA)",
-    "category": "ERP & CRM",
-    "platform": "In-store POS, web and app sync",
-    "summary": "A custom point of sale that shares one live inventory with the retailer's website and mobile app.",
-    "challenge": "The retailer sold limited stock through a website, an app and a physical store. Stock counts drifted between channels, items were oversold, and the in-store till could not see online stock.",
-    "solution": "We built a POS on the same database as the website and app, synced in real time. It works with barcode scanners, thermal printers and cash drawers, and handles discounts, loyalty, card, cash, transfer and QR payments, and printed or emailed receipts.",
-    "features": [
-      {
-        "title": "Fast checkout",
-        "text": "Scan, apply discounts and loyalty, take any payment method and print or email the receipt."
-      },
-      {
-        "title": "One inventory",
-        "text": "Store, website and app share one live stock count."
-      },
-      {
-        "title": "Hardware integration",
-        "text": "Barcode scanners, thermal receipt printers and cash drawers."
-      },
-      {
-        "title": "Sales dashboard",
-        "text": "Daily revenue, top products and low-stock alerts for head office."
-      }
-    ],
-    "scope": [
-      "POS design",
-      "Inventory sync across channels",
-      "Hardware integration",
-      "Loyalty and discounts",
-      "Reporting dashboard"
-    ],
-    "stack": [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "PostgreSQL"
-    ],
-    "services": [
-      "web-applications-websites",
-      "booking-business-management-systems"
-    ],
-    "projectUrl": null,
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg"
-    ]
-  },
-  {
-    "slug": "ai-lead-management-crm",
-    "name": "AI lead management CRM",
-    "clientType": "Sales and outreach team (client under NDA)",
-    "category": "ERP & CRM",
-    "platform": "Web CRM",
-    "summary": "A CRM for managing leads, with AI that writes outreach emails and sorts and drafts replies.",
-    "challenge": "The team managed leads across spreadsheets and inboxes. Writing personalised emails, following up on time and keeping track of replies took most of their day.",
-    "solution": "We built a lead management CRM with a pipeline, email sequences and a shared inbox. AI writes personalised emails, sorts incoming replies by intent and drafts answers for the team to approve before sending.",
-    "features": [
-      {
-        "title": "Lead pipeline",
-        "text": "Every lead from first contact to won, with owners, stages and next actions."
-      },
-      {
-        "title": "AI email writing",
-        "text": "Personalised outreach emails and follow-ups generated for each lead."
-      },
-      {
-        "title": "Reply management",
-        "text": "Incoming replies sorted by intent, with AI-drafted answers to approve or edit."
-      },
-      {
-        "title": "Sequences",
-        "text": "Multi-step campaigns that stop automatically when a lead replies."
-      }
-    ],
-    "scope": [
-      "CRM design",
-      "Lead pipeline and records",
-      "Email sending and inbox sync",
-      "AI email writing and reply handling",
-      "Deployment"
-    ],
-    "stack": [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "PostgreSQL"
-    ],
-    "services": [
-      "ai-integration-automation",
-      "web-applications-websites"
-    ],
-    "projectUrl": null,
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg"
-    ]
-  },
-  {
-    "slug": "textile-manufacturing-erp",
-    "name": "ERP for textile manufacturers",
-    "clientType": "Textile companies (clients under NDA)",
-    "category": "ERP & CRM",
-    "platform": "Web ERP",
-    "summary": "An ERP built for textile companies, connecting sales orders, production, inventory and finance.",
-    "challenge": "Textile manufacturers needed to follow each order from yarn to finished fabric, across several production stages and warehouses, without relying on paper job cards and spreadsheets.",
-    "solution": "We built an ERP for textile companies that links sales orders to production orders, tracks materials and lots through each stage, and gives management one view of production, stock and orders.",
-    "features": [
-      {
-        "title": "Production orders",
-        "text": "Orders routed through each production stage, with materials issued and tracked."
-      },
-      {
-        "title": "Inventory and lots",
-        "text": "Yarn, greige and finished fabric tracked by lot and warehouse."
-      },
-      {
-        "title": "Sales and purchasing",
-        "text": "Sales orders linked to production, with purchasing for materials."
-      },
-      {
-        "title": "Management dashboard",
-        "text": "Production, stock and order status in one place."
-      }
-    ],
-    "scope": [
-      "Process mapping",
-      "ERP architecture",
-      "Production, inventory and order modules",
-      "Reporting",
-      "Deployment"
-    ],
-    "stack": [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "PostgreSQL"
-    ],
-    "services": [
-      "web-applications-websites"
-    ],
-    "projectUrl": null,
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg"
-    ]
-  },
-  {
-    "slug": "kokolet-luxury",
-    "name": "Kokolet Luxury",
-    "clientType": "Luxury retail brand",
-    "category": "E-commerce",
-    "platform": "Web store",
-    "summary": "A premium online store connecting product discovery, checkout and repeat purchases.",
-    "challenge": "Create an online flagship that felt as considered as the products, while keeping browsing and repeat purchasing simple.",
-    "solution": "We designed an editorial storefront and connected the catalogue, checkout and order operations behind it.",
-    "features": [
-      {
-        "title": "Editorial catalogue",
-        "text": "Collections and product pages designed to present products the way the brand does in store."
-      },
-      {
-        "title": "Secure checkout",
-        "text": "A short checkout flow with online payments."
-      },
-      {
-        "title": "Loyalty journey",
-        "text": "Account features that encourage customers to come back."
-      },
-      {
-        "title": "Order operations",
-        "text": "Admin tools to manage orders, stock and fulfilment."
-      }
-    ],
-    "scope": [
-      "UI and UX design",
-      "Storefront development",
-      "Payments integration",
-      "Admin and order management",
-      "Deployment"
-    ],
-    "services": [
-      "web-applications-websites"
-    ],
-    "stack": [
-      "React",
-      "Commerce API",
-      "Payments",
-      "Analytics"
-    ],
-    "projectUrl": "https://kokoletluxury.com/",
-    "cover": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg",
-      "04.jpg"
-    ]
-  },
-  {
-    "slug": "billspro",
-    "name": "BillsPro",
-    "clientType": "Payments app",
-    "category": "Mobile apps",
-    "platform": "iOS and Android",
-    "summary": "A mobile app bringing bill payments, a wallet and virtual cards into one product.",
-    "challenge": "Combine several payment actions in one app without overwhelming customers.",
-    "solution": "We built a mobile-first app with clear transaction flows, status visibility and admin controls behind it.",
-    "features": [
-      {
-        "title": "Digital wallet",
-        "text": "Balance, top-ups and transaction history."
-      },
-      {
-        "title": "Bill payments",
-        "text": "Guided flows for paying everyday bills."
-      },
-      {
-        "title": "Virtual cards",
-        "text": "Card creation and management inside the app."
-      },
-      {
-        "title": "Transaction monitoring",
-        "text": "Admin views to track and support transactions."
-      }
-    ],
-    "scope": [
-      "Mobile UI and UX design",
-      "Cross-platform app build",
-      "Back-end APIs",
-      "Admin panel",
-      "Store publishing"
-    ],
-    "services": [
-      "mobile-app-development"
-    ],
-    "stack": [
-      "React Native",
-      "Node.js",
-      "PostgreSQL",
-      "Payment APIs"
-    ],
-    "projectUrl": "https://billspro.com.ng/",
     "cover": "01.jpg",
     "gallery": [
       "01.jpg",
