@@ -812,6 +812,60 @@
     ]
   },
   {
+    "slug": "facilities-hospitality-erp",
+    "name": "ERP for a facilities and hospitality group",
+    "clientType": "Facilities management and hospitality group (under NDA)",
+    "category": "Web",
+    "platform": "Web ERP",
+    "summary": "A custom ERP that runs procurement, inventory, projects, HR, payroll and finance for a facilities management and hospitality group.",
+    "challenge": "The group ran facilities management, catering and hospitality across many sites, with requisitions, purchasing, vendors, inventory, projects, HR and finance kept in separate spreadsheets and tools.",
+    "solution": "We built one ERP on a single database covering every part of the business, with role-based access, approval workflows, document attachments, notifications and a full audit trail in every module. Delivered as a white-label partner.",
+    "features": [
+      {
+        "title": "Procurement",
+        "text": "Requisitions, purchase orders, vendor management, sourcing and RFQs with multi-step approvals."
+      },
+      {
+        "title": "Inventory and projects",
+        "text": "Stock across sites and project budgets tracked against actual costs."
+      },
+      {
+        "title": "HR and payroll",
+        "text": "Employee records, leave, onboarding and monthly payroll runs."
+      },
+      {
+        "title": "Finance and reporting",
+        "text": "Finance, sales and an executive dashboard across every division."
+      }
+    ],
+    "scope": [
+      "Business process mapping",
+      "ERP architecture",
+      "Module development",
+      "Roles, approvals and audit trail",
+      "Data migration",
+      "White-label delivery"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "services": [
+      "web-applications-websites",
+      "white-label-development"
+    ],
+    "projectUrl": null,
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
     "slug": "kokolet-luxury",
     "name": "Kokolet Luxury",
     "clientType": "Luxury retail brand",
