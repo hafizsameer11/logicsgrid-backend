@@ -33,7 +33,7 @@ return [
         'local' => [
             'driver' => 'local',
             'root' => storage_path('app/private'),
-            'serve' => true,
+            'serve' => false, // /storage/* is used for public uploads (see routes/web.php)
             'throw' => false,
             'report' => false,
         ],

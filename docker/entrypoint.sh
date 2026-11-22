@@ -33,7 +33,8 @@ fi
 # Seeding runs as root, so hand new files back to the web server user.
 chown -R www-data:www-data storage
 
-php artisan storage:link --force >/dev/null 2>&1 || true
+# Link public/storage to the uploads folder (relative, so it survives volume mounts).
+rm -rf public/storage && ln -s ../storage/app/public public/storage
 php artisan optimize
 php artisan filament:optimize
 
