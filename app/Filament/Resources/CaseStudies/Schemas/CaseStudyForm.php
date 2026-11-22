@@ -17,7 +17,12 @@ use Filament\Schemas\Schema;
 
 class CaseStudyForm
 {
-    public const CATEGORIES = ['SaaS' => 'SaaS', 'Web' => 'Web', 'Mobile' => 'Mobile', 'Booking & management' => 'Booking & management', 'AI' => 'AI'];
+    public const CATEGORIES = [
+        'ERP & CRM' => 'ERP & CRM', 'Marketplaces' => 'Marketplaces', 'E-commerce' => 'E-commerce', 'Mobile apps' => 'Mobile apps',
+        'Web platforms' => 'Web platforms', 'Websites' => 'Websites', 'AI' => 'AI',
+        // Older values kept so existing records still validate.
+        'SaaS' => 'SaaS', 'Web' => 'Web', 'Mobile' => 'Mobile', 'Booking & management' => 'Booking & management',
+    ];
 
     public static function configure(Schema $schema): Schema
     {
