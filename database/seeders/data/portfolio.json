@@ -1006,7 +1006,12 @@
       "AI email writing and reply handling",
       "Deployment"
     ],
-    "stack": [],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL"
+    ],
     "services": [
       "ai-integration-automation",
       "web-applications-websites"
@@ -1053,7 +1058,12 @@
       "Reporting",
       "Deployment"
     ],
-    "stack": [],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL"
+    ],
     "services": [
       "web-applications-websites"
     ],
