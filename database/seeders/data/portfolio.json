@@ -814,12 +814,12 @@
   {
     "slug": "facilities-hospitality-erp",
     "name": "ERP for a facilities and hospitality group",
-    "clientType": "Facilities management and hospitality group (under NDA)",
+    "clientType": "Facilities management and hospitality group (client under NDA)",
     "category": "Web",
     "platform": "Web ERP",
     "summary": "A custom ERP that runs procurement, inventory, projects, HR, payroll and finance for a facilities management and hospitality group.",
     "challenge": "The group ran facilities management, catering and hospitality across many sites, with requisitions, purchasing, vendors, inventory, projects, HR and finance kept in separate spreadsheets and tools.",
-    "solution": "We built one ERP on a single database covering every part of the business, with role-based access, approval workflows, document attachments, notifications and a full audit trail in every module. Delivered as a white-label partner.",
+    "solution": "We built one ERP on a single database covering every part of the business, with role-based access, approval workflows, document attachments, notifications and a full audit trail in every module.",
     "features": [
       {
         "title": "Procurement",
@@ -844,7 +844,7 @@
       "Module development",
       "Roles, approvals and audit trail",
       "Data migration",
-      "White-label delivery"
+      "Deployment"
     ],
     "stack": [
       "React",
@@ -855,7 +855,207 @@
     ],
     "services": [
       "web-applications-websites",
-      "white-label-development"
+      "booking-business-management-systems"
+    ],
+    "projectUrl": null,
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "logistics-freight-erp",
+    "name": "Logistics ERP for freight, warehousing and customs",
+    "clientType": "Logistics company (client under NDA)",
+    "category": "Web",
+    "platform": "Web ERP with client tracking links",
+    "summary": "One system that runs sea freight, warehousing, trucking and customs clearance, from quote to delivery.",
+    "challenge": "The company handled sea freight, warehousing, in-country trucking and customs clearance, but each service ran on its own tools and spreadsheets. One shipment touched four systems, and customers had no clear view of their cargo.",
+    "solution": "We built a single ERP with a shared shipment timeline: freight bookings and container tracking, warehouse inbound and outbound with bin locations, fleet dispatch, and customs documents with HS codes and duty calculation, plus live tracking links for customers.",
+    "features": [
+      {
+        "title": "Sea freight",
+        "text": "Bookings, container tracking and a shared timeline for every shipment."
+      },
+      {
+        "title": "Warehousing",
+        "text": "Inbound and outbound movements with bin locations and occupancy."
+      },
+      {
+        "title": "Trucking",
+        "text": "Fleet dispatch and trucking jobs for in-country delivery."
+      },
+      {
+        "title": "Customs clearance",
+        "text": "Entries, documents, HS codes and duty calculation."
+      }
+    ],
+    "scope": [
+      "Process mapping",
+      "ERP architecture",
+      "Freight, warehouse, trucking and customs modules",
+      "Role-based access",
+      "Customer tracking links",
+      "Deployment"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Mapbox",
+      "WebSockets"
+    ],
+    "services": [
+      "web-applications-websites",
+      "booking-business-management-systems"
+    ],
+    "projectUrl": null,
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "retail-pos-inventory",
+    "name": "Point of sale with one inventory across store, website and app",
+    "clientType": "Fashion and sneaker retailer (client under NDA)",
+    "category": "Web",
+    "platform": "In-store POS, web and app sync",
+    "summary": "A custom point of sale that shares one live inventory with the retailer's website and mobile app.",
+    "challenge": "The retailer sold limited stock through a website, an app and a physical store. Stock counts drifted between channels, items were oversold, and the in-store till could not see online stock.",
+    "solution": "We built a POS on the same database as the website and app, synced in real time. It works with barcode scanners, thermal printers and cash drawers, and handles discounts, loyalty, card, cash, transfer and QR payments, and printed or emailed receipts.",
+    "features": [
+      {
+        "title": "Fast checkout",
+        "text": "Scan, apply discounts and loyalty, take any payment method and print or email the receipt."
+      },
+      {
+        "title": "One inventory",
+        "text": "Store, website and app share one live stock count."
+      },
+      {
+        "title": "Hardware integration",
+        "text": "Barcode scanners, thermal receipt printers and cash drawers."
+      },
+      {
+        "title": "Sales dashboard",
+        "text": "Daily revenue, top products and low-stock alerts for head office."
+      }
+    ],
+    "scope": [
+      "POS design",
+      "Inventory sync across channels",
+      "Hardware integration",
+      "Loyalty and discounts",
+      "Reporting dashboard"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "services": [
+      "web-applications-websites",
+      "booking-business-management-systems"
+    ],
+    "projectUrl": null,
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "ai-lead-management-crm",
+    "name": "AI lead management CRM",
+    "clientType": "Sales and outreach team (client under NDA)",
+    "category": "Web",
+    "platform": "Web CRM",
+    "summary": "A CRM for managing leads, with AI that writes outreach emails and sorts and drafts replies.",
+    "challenge": "The team managed leads across spreadsheets and inboxes. Writing personalised emails, following up on time and keeping track of replies took most of their day.",
+    "solution": "We built a lead management CRM with a pipeline, email sequences and a shared inbox. AI writes personalised emails, sorts incoming replies by intent and drafts answers for the team to approve before sending.",
+    "features": [
+      {
+        "title": "Lead pipeline",
+        "text": "Every lead from first contact to won, with owners, stages and next actions."
+      },
+      {
+        "title": "AI email writing",
+        "text": "Personalised outreach emails and follow-ups generated for each lead."
+      },
+      {
+        "title": "Reply management",
+        "text": "Incoming replies sorted by intent, with AI-drafted answers to approve or edit."
+      },
+      {
+        "title": "Sequences",
+        "text": "Multi-step campaigns that stop automatically when a lead replies."
+      }
+    ],
+    "scope": [
+      "CRM design",
+      "Lead pipeline and records",
+      "Email sending and inbox sync",
+      "AI email writing and reply handling",
+      "Deployment"
+    ],
+    "stack": [],
+    "services": [
+      "ai-integration-automation",
+      "web-applications-websites"
+    ],
+    "projectUrl": null,
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
+  },
+  {
+    "slug": "textile-manufacturing-erp",
+    "name": "ERP for textile manufacturers",
+    "clientType": "Textile companies (clients under NDA)",
+    "category": "Web",
+    "platform": "Web ERP",
+    "summary": "An ERP built for textile companies, connecting sales orders, production, inventory and finance.",
+    "challenge": "Textile manufacturers needed to follow each order from yarn to finished fabric, across several production stages and warehouses, without relying on paper job cards and spreadsheets.",
+    "solution": "We built an ERP for textile companies that links sales orders to production orders, tracks materials and lots through each stage, and gives management one view of production, stock and orders.",
+    "features": [
+      {
+        "title": "Production orders",
+        "text": "Orders routed through each production stage, with materials issued and tracked."
+      },
+      {
+        "title": "Inventory and lots",
+        "text": "Yarn, greige and finished fabric tracked by lot and warehouse."
+      },
+      {
+        "title": "Sales and purchasing",
+        "text": "Sales orders linked to production, with purchasing for materials."
+      },
+      {
+        "title": "Management dashboard",
+        "text": "Production, stock and order status in one place."
+      }
+    ],
+    "scope": [
+      "Process mapping",
+      "ERP architecture",
+      "Production, inventory and order modules",
+      "Reporting",
+      "Deployment"
+    ],
+    "stack": [],
+    "services": [
+      "web-applications-websites"
     ],
     "projectUrl": null,
     "cover": "01.jpg",
