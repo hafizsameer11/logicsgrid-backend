@@ -756,6 +756,62 @@
     ]
   },
   {
+    "slug": "tg-calabria-report",
+    "name": "TG Calabria Report",
+    "clientType": "Regional news publisher",
+    "category": "Web",
+    "platform": "News website, mobile-first",
+    "summary": "A digital news platform for Calabria, with live regional news plus weather, sport, transport and reader services.",
+    "challenge": "The publisher needed a fast, modern news site that keeps readers coming back every day, not just a list of articles, with space for local advertisers.",
+    "solution": "We built a news platform with categories, breaking news and trending stories, and added daily-use tools such as city weather, sport results, transport information and a horoscope, plus reader accounts and a newsletter.",
+    "features": [
+      {
+        "title": "News and categories",
+        "text": "Headlines, featured stories, breaking news and sections for politics, sport, business, culture and more."
+      },
+      {
+        "title": "Article pages",
+        "text": "Clean reading pages with share buttons, trending stories and related news."
+      },
+      {
+        "title": "Daily services",
+        "text": "Weather for every Calabrian city, football standings and fixtures, transport information and a horoscope."
+      },
+      {
+        "title": "Reader accounts",
+        "text": "Sign-in, bookmarks, a newsletter and a form for readers to report content."
+      }
+    ],
+    "scope": [
+      "UI and UX design",
+      "News platform development",
+      "Third-party data integrations",
+      "Advertising placements",
+      "Italian and English versions",
+      "Deployment"
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "Nginx"
+    ],
+    "services": [
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://tgcalabriareport.com/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg"
+    ]
+  },
+  {
     "slug": "kokolet-luxury",
     "name": "Kokolet Luxury",
     "clientType": "Luxury retail brand",
