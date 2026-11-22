@@ -694,6 +694,68 @@
     ]
   },
   {
+    "slug": "mybeauty-plus",
+    "name": "MyBeauty+",
+    "clientType": "Beauty and salon marketplace",
+    "category": "Web",
+    "platform": "Web marketplace, mobile-first",
+    "summary": "A multi-vendor marketplace where customers book salons in Calabria and buy the products professionals use.",
+    "challenge": "Customers booked salons by phone and had no single place to compare them, and salons had no simple way to take bookings, payments and product orders online.",
+    "solution": "We built a multi-vendor platform with salon discovery and online booking for customers, a shop for professional products, and tools for salons to run bookings, payments, products and clients.",
+    "features": [
+      {
+        "title": "Salon discovery",
+        "text": "Browse salons by city and category, from hair and barbers to nails, aesthetics and spa, with a map view."
+      },
+      {
+        "title": "Online booking",
+        "text": "Pick a service, a time and a staff member, then book in a few taps without a phone call."
+      },
+      {
+        "title": "Product shop",
+        "text": "Products sold directly by salons, with options, filters, shipping or in-salon pickup."
+      },
+      {
+        "title": "Tools for salons",
+        "text": "A 24/7 online agenda, e-commerce, deposits and payments, verified reviews, a mini CRM and analytics."
+      }
+    ],
+    "scope": [
+      "Marketplace architecture",
+      "Customer booking flow",
+      "Salon pages and product shop",
+      "Salon owner tools",
+      "Italian and English versions",
+      "Deployment"
+    ],
+    "stack": [
+      "React",
+      "Vite",
+      "Stripe",
+      "Nginx"
+    ],
+    "services": [
+      "booking-business-management-systems",
+      "web-applications-websites"
+    ],
+    "projectUrl": "https://mybeutyplus.it/",
+    "cover": "01.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg"
+    ]
+  },
+  {
     "slug": "kokolet-luxury",
     "name": "Kokolet Luxury",
     "clientType": "Luxury retail brand",
